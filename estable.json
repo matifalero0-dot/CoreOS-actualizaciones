@@ -1,0 +1,31 @@
+{
+  "version": "1.2",
+  "edicion": "Aurora",
+  "titulo": "CoreOS Aurora 1.2",
+  "fecha": "2026-10-27",
+  "notas": [
+    "Novedades de CoreOS Aurora 1.2",
+    "Ventanas con nuevas cabeceras y botones propios de Aurora.",
+    "Ajustes más compactos, con iconos y controles renovados.",
+    "Animaciones y transiciones más fluidas en la isla, la búsqueda y las ventanas.",
+    "La barra superior adapta su altura al tamaño de la isla.",
+    "Mensajes consecutivos en la isla con transiciones suaves y respuesta conservada.",
+    "Porcentaje de batería dentro del icono, con opción para mostrarlo u ocultarlo.",
+    "Tienda renovada con portadas y vistas previas de aplicaciones.",
+    "Calendario rediseñado con navegación por días y acceso rápido a eventos.",
+    "Coreview y Cámara con controles reorganizados y visor más claro.",
+    "Portapapeles renovado.",
+    "Galería de widgets más compacta, con vistas previas de distintos tamaños.",
+    "Dock con vistas previas y controles individuales para ventanas.",
+    "Selección y arrastre conjunto de archivos y carpetas.",
+    "Mejoras en la detección y organización de pantallas.",
+    "Centro de control editable y controles de energía renovados.",
+    "Mejoras en la consulta de modelos locales y de Gemini en Eve.",
+    "Treinta sonidos de notificación con melodías propias.",
+    "Tonos renovados para Instagram y TikTok.",
+    "Soporte de PIN integrado al inicio de sesión."
+  ],
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v1.2/corelab-core_1.2_all.deb",
+  "sha256": "61c2005306eb3aa08f7585c6e11c5702790fddfe580cab013e254e8503c356a3",
+  "tamaño": 100289568
+}
