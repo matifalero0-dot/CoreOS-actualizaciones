@@ -1,13 +1,21 @@
 {
-  "version": "1.5",
+  "version": "2.0",
   "edicion": "Aurora",
-  "titulo": "CoreOS Aurora 1.5",
-  "fecha": "2026-11-03",
+  "titulo": "CoreOS 2.0",
+  "fecha": "2026-11-05",
   "notas": [
-    "Nuevas Funciones",
-    "Nuevo fondo."
+    "CoreOS 2.0 · Medianoche y Nácar: controles, iconos y superficies coherentes en claro y oscuro.",
+    "Barra de tareas central, apps recientes, centro de control editable y menús independientes con movimiento suave.",
+    "Acceso, bloqueo y AOD comparten una sola presentación; correcciones de Windows + L y fondos de la vista previa.",
+    "Isla con gestos, actividades, audio de siete bandas y visor de fotos, stickers, audio y video disponibles.",
+    "WhatsApp conserva su interfaz web original. Los mensajes enviados no generan avisos personales.",
+    "Eve Chat integrado en la app, conexiones de IA corregidas y estudio de imágenes con motores locales.",
+    "Calendario, Clima, Alarma, Captura, Ajustes y widgets renovados; biblioteca de juegos de Owlcore con Steam, Epic, GOG y juegos locales.",
+    "Actualización de componentes en la sesión, con respaldos y conservación de documentos y conversaciones abiertas.",
+    "Tienda con seis portadas originales, capturas de Flathub e iconos oficiales de 42 apps.",
+    "Widgets con transparencia opcional y gradual; bandeja compacta de apps en segundo plano junto a la lupa."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v1.5/corelab-core_1.5_all.deb",
-  "sha256": "b63ae159748f6f4d3cd816e055f26edb1e5e57a9a6c7954e25b3460d46e9fd7a",
-  "tamaño": 171185912
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v2.0/corelab-core_2.0_all.deb",
+  "sha256": "e14da9a1a432deaa618697ccb58419f31c965648f339f15fa8d0d6c67e2aa1b6",
+  "tamaño": 196498992
 }
