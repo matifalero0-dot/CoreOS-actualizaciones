@@ -1,10 +1,10 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "edicion": "Aurora",
-  "titulo": "CoreOS 2.0",
+  "titulo": "CoreOS 3.0",
   "fecha": "2026-11-05",
   "notas": [
-    "CoreOS 2.0 · Medianoche y Nácar: controles, iconos y superficies coherentes en claro y oscuro.",
+    "CoreOS 3.0 · Medianoche y Nácar: controles, iconos y superficies coherentes en claro y oscuro.",
     "Barra de tareas central, apps recientes, centro de control editable y menús independientes con movimiento suave.",
     "Acceso, bloqueo y AOD comparten una sola presentación; correcciones de Windows + L y fondos de la vista previa.",
     "Isla con gestos, actividades, audio de siete bandas y visor de fotos, stickers, audio y video disponibles.",
@@ -13,9 +13,11 @@
     "Calendario, Clima, Alarma, Captura, Ajustes y widgets renovados; biblioteca de juegos de Owlcore con Steam, Epic, GOG y juegos locales.",
     "Actualización de componentes en la sesión, con respaldos y conservación de documentos y conversaciones abiertas.",
     "Tienda con seis portadas originales, capturas de Flathub e iconos oficiales de 42 apps.",
+    "Avisos compactos con texto completo, calendario con acción legible y autenticación opaca.",
+    "Bandeja funcional para apps residentes, reapertura y salida; etiquetas claras del escritorio.",
     "Widgets con transparencia opcional y gradual; bandeja compacta de apps en segundo plano junto a la lupa."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v2.0/corelab-core_2.0_all.deb",
-  "sha256": "e14da9a1a432deaa618697ccb58419f31c965648f339f15fa8d0d6c67e2aa1b6",
-  "tamaño": 196498992
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v3.0/corelab-core_3.0_all.deb",
+  "sha256": "5267e3848244c7764e039d87c675973a0b76deecc72027363aee6e292dd4be1f",
+  "tamaño": 196613300
 }
