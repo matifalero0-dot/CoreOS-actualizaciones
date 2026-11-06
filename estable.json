@@ -1,23 +1,20 @@
 {
-  "version": "3.0",
+  "version": "27",
   "edicion": "Aurora",
-  "titulo": "CoreOS 3.0",
-  "fecha": "2026-11-05",
+  "titulo": "CoreOS 27",
+  "fecha": "2026-11-06",
   "notas": [
-    "CoreOS 3.0 · Medianoche y Nácar: controles, iconos y superficies coherentes en claro y oscuro.",
-    "Barra de tareas central, apps recientes, centro de control editable y menús independientes con movimiento suave.",
-    "Acceso, bloqueo y AOD comparten una sola presentación; correcciones de Windows + L y fondos de la vista previa.",
-    "Isla con gestos, actividades, audio de siete bandas y visor de fotos, stickers, audio y video disponibles.",
-    "WhatsApp conserva su interfaz web original. Los mensajes enviados no generan avisos personales.",
-    "Eve Chat integrado en la app, conexiones de IA corregidas y estudio de imágenes con motores locales.",
-    "Calendario, Clima, Alarma, Captura, Ajustes y widgets renovados; biblioteca de juegos de Owlcore con Steam, Epic, GOG y juegos locales.",
-    "Actualización de componentes en la sesión, con respaldos y conservación de documentos y conversaciones abiertas.",
-    "Tienda con seis portadas originales, capturas de Flathub e iconos oficiales de 42 apps.",
-    "Avisos compactos con texto completo, calendario con acción legible y autenticación opaca.",
-    "Bandeja funcional para apps residentes, reapertura y salida; etiquetas claras del escritorio.",
-    "Widgets con transparencia opcional y gradual; bandeja compacta de apps en segundo plano junto a la lupa."
+    "Nueva numeración por año: esta es CoreOS 27.",
+    "Eve ahora se llama Matt, con voces humanas opcionales y más voces locales.",
+    "Matt en el escritorio tiene personalidad: se viste y baila según el estilo de la música, se enoja, se deja calmar y hace 12 actividades cuando está solo. Se apaga desde sus ajustes.",
+    "Lanzador nuevo, con botones renovados y categorías bajo la búsqueda.",
+    "Isla más fluida: tocar un aviso abre la app, el mensaje más reciente aparece primero y rebota al salir Matt.",
+    "El panel de notificaciones se cierra al tocar afuera; reproductor del widget corregido y con desenfoque de movimiento.",
+    "CoreView con controles abajo, más compactos, y reconexión inmediata cuando vuelve la red.",
+    "Tienda, Buscar, Monitor, calculadora y sonidos de notificación mejorados; diálogos de autenticación propios de CoreOS.",
+    "Ajustes suma una sección para desinstalar programas. Se quitaron Transmitir y Stream."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v3.0/corelab-core_3.0_all.deb",
-  "sha256": "5267e3848244c7764e039d87c675973a0b76deecc72027363aee6e292dd4be1f",
-  "tamaño": 196613300
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27/corelab-core_27_all.deb",
+  "sha256": "719da6d72dbfc65e907083963f99b52d771c5c15bf961f55877759f11da5068f",
+  "tamaño": 200600452
 }
