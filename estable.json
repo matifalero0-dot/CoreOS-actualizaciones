@@ -1,20 +1,12 @@
 {
-  "version": "27",
+  "version": "27.0.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27",
+  "titulo": "CoreOS 27.0.1",
   "fecha": "2026-11-06",
   "notas": [
-    "Nueva numeración por año: esta es CoreOS 27.",
-    "Eve ahora se llama Matt, con voces humanas opcionales y más voces locales.",
-    "Matt en el escritorio tiene personalidad: se viste y baila según el estilo de la música, se enoja, se deja calmar y hace 12 actividades cuando está solo. Se apaga desde sus ajustes.",
-    "Lanzador nuevo, con botones renovados y categorías bajo la búsqueda.",
-    "Isla más fluida: tocar un aviso abre la app, el mensaje más reciente aparece primero y rebota al salir Matt.",
-    "El panel de notificaciones se cierra al tocar afuera; reproductor del widget corregido y con desenfoque de movimiento.",
-    "CoreView con controles abajo, más compactos, y reconexión inmediata cuando vuelve la red.",
-    "Tienda, Buscar, Monitor, calculadora y sonidos de notificación mejorados; diálogos de autenticación propios de CoreOS.",
-    "Ajustes suma una sección para desinstalar programas. Se quitaron Transmitir y Stream."
+    "Letra sincronizada en la isla: tocá el botón de letra en el reproductor para abrirla, con la línea actual animada. Tocá una línea para ir a esa parte de la canción."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27/corelab-core_27_all.deb",
-  "sha256": "719da6d72dbfc65e907083963f99b52d771c5c15bf961f55877759f11da5068f",
-  "tamaño": 200600452
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.0.1/corelab-core_27.0.1_all.deb",
+  "sha256": "d59fb23a6c14a107733fbb0db50184431bf025f0e962ee26f4f7d26f47db03cd",
+  "tamaño": 200540208
 }
