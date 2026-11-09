@@ -1,18 +1,12 @@
 {
-  "version": "27.0.2",
+  "version": "27.0.3",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.0.2",
+  "titulo": "CoreOS 27.0.3",
   "fecha": "2026-11-09",
   "notas": [
-    "Modo Juego más completo: juegos en ventana sin efectos, actualizaciones en pausa, resumen de avisos al terminar, FPS automáticos, aviso de calor, informe de cada partida y repetición instantánea con Super + Alt + J.",
-    "Pantalla de bloqueo más segura y útil: espera creciente tras contraseñas incorrectas, último desbloqueo, Bloq Mayús, teclado, wifi, volumen, suspender e información de emergencia.",
-    "Bloqueo con estilo: lluvia o nieve según el clima, brillo neón en la hora, texto grande y alto contraste. Opcionales: foto de quien intenta entrar, PIN sin Enter y bloquear al alejarse el celular.",
-    "Matt habla con la primera frase, resuelve al instante volumen, música, hora, temporizadores y modos, crea rutinas cuando se lo pedís y explica los errores del sistema.",
-    "Matt puede deshacer su último cambio, muestra su velocidad y el uso del mes con un tope opcional, y con la pantalla bloqueada sólo hace cosas inofensivas.",
-    "Borde del color de acento en la ventana activa y luz nocturna automática al atardecer de tu ciudad.",
-    "Arreglos: franja clara en los paneles divididos de Notas e ícono de Línea de tiempo."
+    "El reloj de los widgets ahora tiene segundero continuo, como en iOS: barre sin saltos."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.0.2/corelab-core_27.0.2_all.deb",
-  "sha256": "926dcd0506a24baa09605e36b243e8f8a73bd350c3734d67891f93f40daed9df",
-  "tamaño": 200514744
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.0.3/corelab-core_27.0.3_all.deb",
+  "sha256": "9fd22b251c283007614c234b83e86a0bdb14980ab6dd3d69e61db348d19d087b",
+  "tamaño": 200555980
 }
