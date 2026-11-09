@@ -1,14 +1,13 @@
 {
-  "version": "27.1.1",
+  "version": "27.1.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.1.1",
+  "titulo": "CoreOS 27.1.2",
   "fecha": "2026-11-09",
   "notas": [
-    "Arreglo del actualizador: con APT 3.0 la instalación fallaba con «Pathname to install is not absolute». Ahora instala bien.",
-    "Si tu equipo muestra ese error al actualizar, tocá Reintentar: el primer intento deja listo el actualizador corregido y el segundo instala.",
-    "Incluye todas las novedades de CoreOS 27.1: bloqueo, isla, animaciones, Modo Juego, centro de control, llamadas y Matt 8-bit."
+    "Pantalla completa más estable en Modo Juego. Al entrar y salir con F11, Picom mantiene la composición activa para evitar recuadros negros.",
+    "Los juegos detectados conservan el perfil de rendimiento y se dibujan sin sombras, desenfoque ni animaciones de ventana."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.1.1/corelab-core_27.1.1_all.deb",
-  "sha256": "2f58f1c068d9017377045a0812fc15c59355e3b573ea4dcb7127f3396924f063",
-  "tamaño": 200638336
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.1.2/corelab-core_27.1.2_all.deb",
+  "sha256": "7c99dad2bb1c08e89c13553cf1b29dad3f12e04ac11274add80eedacd2816499",
+  "tamaño": 200583752
 }
