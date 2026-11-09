@@ -1,22 +1,14 @@
 {
-  "version": "27.1",
+  "version": "27.1.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.1",
+  "titulo": "CoreOS 27.1.1",
   "fecha": "2026-11-09",
   "notas": [
-    "Pantalla de bloqueo: el deslizador de la música busca de verdad, sin tirones mientras suena; volumen con deslizador y cargador detectado al instante.",
-    "Al desbloquear, la hora vuela hasta el reloj de la barra; la carátula cambia con desenfoque, como en iOS.",
-    "Isla: estela de movimiento más notoria y liviana, carátula que gira en 3D, barras en cascada, avisos con peso y aviso de escritorio más visible.",
-    "Cambiar de escritorio ahora tiene un desenfoque de movimiento exagerado en las ventanas.",
-    "Modo Juego automático más rápido y liviano; detecta juegos nativos sueltos y juegos de Windows en carpetas Games.",
-    "Centro de control: vuelve la carátula y la página del reproductor; el color de la carátula se ve igual en isla, widget y controles.",
-    "Llamadas de WhatsApp de escritorio con Atender y Rechazar.",
-    "Matt 8-bit: aterrizaje con polvo, aparición pixelada, ecualizador al escuchar, confeti al terminar una descarga y bostezo antes de dormir.",
-    "Biblioteca con portadas animadas, destello al capturar la pantalla y secciones de Ajustes que aparecen escalonadas.",
-    "Más fluidez: reloj de los widgets y textos en caché, estela de la isla que se simplifica sola si el equipo está cargado.",
-    "Arreglos: la isla vuelve siempre a su supervisor, el ícono de Matt muestra la M y un chequeo automático evita llamadas a funciones que ya no existen."
+    "Arreglo del actualizador: con APT 3.0 la instalación fallaba con «Pathname to install is not absolute». Ahora instala bien.",
+    "Si tu equipo muestra ese error al actualizar, tocá Reintentar: el primer intento deja listo el actualizador corregido y el segundo instala.",
+    "Incluye todas las novedades de CoreOS 27.1: bloqueo, isla, animaciones, Modo Juego, centro de control, llamadas y Matt 8-bit."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.1/corelab-core_27.1_all.deb",
-  "sha256": "08e2eb560aa1173780675e0eb3338b9aa67eb9ded1774ccc13250aae12b66a45",
-  "tamaño": 200613268
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.1.1/corelab-core_27.1.1_all.deb",
+  "sha256": "2f58f1c068d9017377045a0812fc15c59355e3b573ea4dcb7127f3396924f063",
+  "tamaño": 200638336
 }
