@@ -1,19 +1,14 @@
 {
-  "version": "27.3.1",
+  "version": "27.3.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.3.1",
+  "titulo": "CoreOS 27.3.2",
   "fecha": "2026-11-10",
   "notas": [
-    "PIN: ahora se crea también desde Ajustes → Bloqueo (antes sólo estaba en Perfil y cuenta) y entra solo al escribir el último dígito, sin Enter, también en la pantalla de inicio de sesión.",
-    "Bloqueo: tocar el campo de la contraseña ya no lo selecciona ni lo traba.",
-    "Bloqueo: los botones de Wi-Fi y Bluetooth abren un menú para conectarte o desconectarte de redes guardadas y de dispositivos emparejados. Una red nueva con contraseña pide desbloquear.",
-    "Bloqueo: la tarjeta de música muestra la letra sincronizada (la línea que suena y la siguiente). Se apaga en Ajustes → Bloqueo.",
-    "Matt reconoce canciones: «¿qué canción suena?» responde con lo que reproduce tu equipo o, con SongRec instalado, escuchando 8 segundos.",
-    "Ajustes → Rendimiento y juegos: medidor de fluidez con cuadros por segundo reales, el 1 % más lento, cuadros perdidos e historial.",
-    "Matt Chat dentro de las apps: se puede escribir al tocar el campo y aparece sin el destello negro.",
-    "Los fondos animados del bloqueo y del escritorio siguen apagados de fábrica: sólo se activan si elegís uno."
+    "WhatsApp, Instagram y las demás apps web en segundo plano gastan lo mínimo: sin ventana no se dibujan y sus relojes se espacian, pero los mensajes y las llamadas llegan igual, al instante. Durante una llamada funcionan a pleno. En una prueba, el procesador bajó de 5,6 % a 0,3 %.",
+    "Chrome en segundo plano ya no corre servicios que no hacen falta (actualizaciones de componentes, sincronización) y libera memoria al ocultarse.",
+    "Se puede apagar en Ajustes → Segundo plano → «Gastar lo mínimo»."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.3.1/corelab-core_27.3.1_all.deb",
-  "sha256": "18e26986aad81d6b10de0d32b04a28e7498d404efd0ec3ce6015cf8282adca3f",
-  "tamaño": 200792288
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.3.2/corelab-core_27.3.2_all.deb",
+  "sha256": "17be2f09b62515c8541c05f7abe6cc5e546aff2293bd801dce36d786fa689301",
+  "tamaño": 200771992
 }
