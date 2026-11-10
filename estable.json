@@ -1,20 +1,19 @@
 {
-  "version": "27.2",
+  "version": "27.2.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.2",
+  "titulo": "CoreOS 27.2.1",
   "fecha": "2026-11-10",
   "notas": [
-    "Matt Chat responde más fluido: mientras escribe sólo se recalcula el párrafo en curso, y las respuestas largas ya no tironean.",
-    "Matt Chat muestra fotos reales de Wikipedia cuando un ejemplo se entiende mejor viéndolo, con su título y el enlace a la fuente. Se apagan con EVE_FOTOS=0.",
-    "Respuestas de Matt más claras: van al grano, con pasos numerados, tablas, enlaces, casillas y citas, y el formato aparece mientras escribe.",
-    "Arreglo: con Matt Chat abierto dentro de una app, la app vuelve a recibir el teclado al tocarla o al cerrar el panel.",
-    "La isla acepta órdenes desde scripts: corelab-isla mostrar, actividad, fin e historial.",
-    "La terminal avisa en la isla cuando termina un comando que tardó 30 segundos o más, con su resultado. Se apaga con ISLA_COMANDOS=0.",
-    "La isla recuerda las últimas cinco actividades terminadas mientras dura la sesión.",
-    "Las actividades de otras apps se validan al llegar a la isla: un dato mal formado ya no afecta su dibujo.",
-    "Colores, radios y tiempos de las apps, del compositor y de GTK 4 salen de una sola fuente de diseño."
+    "Matt y Matt Chat guardan las citas en el Calendario de CoreOS y verifican el evento antes de confirmarlo. Distinguen el guardado de la programación del recordatorio y evitan duplicados.",
+    "La isla muestra las etapas del trabajo y el tiempo transcurrido. Claude Code se integra con el comando `corelab-claude` y la conversación de Matt se puede abrir en Matt Chat.",
+    "La isla puede ampliarse para mostrar fotos y reproducir videos de YouTube. Se ajustaron los rebotes, los fundidos y el desenfoque de movimiento.",
+    "Ajustes permite elegir un video o GIF local como fondo de bloqueo en bucle. Mejoraron la tarjeta de música, el sonido y las transiciones de acceso. Las respuestas desde el bloqueo requieren autenticación.",
+    "La isla y las transiciones siguen el reloj de cuadros del monitor. El refresco automático conserva las frecuencias elegidas en disposiciones guardadas.",
+    "Modo Juego reduce los efectos y el trabajo de fondo. Los juegos abiertos con el perfil de CoreOS se lanzan sin un límite de FPS predeterminado. El cuidado térmico está activado de fábrica y se puede desactivar.",
+    "El Dock muestra miniaturas más compactas. También se ajustaron el Centro de control y el Centro de notificaciones.",
+    "Matt Chat incorpora un generador de imágenes dentro de la conversación y crea DOCX y PPTX editables con confirmación. La búsqueda con fuentes usa Brave Search y requiere una clave de API."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.2/corelab-core_27.2_all.deb",
-  "sha256": "62b36a027d8af13412b1edfe0376d0bdec31dd5ef71e9fee2a5b9d7d16a94ed4",
-  "tamaño": 200572828
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.2.1/corelab-core_27.2.1_all.deb",
+  "sha256": "02fb337ee099922d0c87cd6daa51d90db7058c77210d713289c4c3f8e6db6c1c",
+  "tamaño": 200677540
 }
