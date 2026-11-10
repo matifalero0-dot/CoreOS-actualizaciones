@@ -1,14 +1,25 @@
 {
-  "version": "27.3.2",
+  "version": "27.5",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.3.2",
+  "titulo": "CoreOS 27.5",
   "fecha": "2026-11-10",
   "notas": [
-    "WhatsApp, Instagram y las demás apps web en segundo plano gastan lo mínimo: sin ventana no se dibujan y sus relojes se espacian, pero los mensajes y las llamadas llegan igual, al instante. Durante una llamada funcionan a pleno. En una prueba, el procesador bajó de 5,6 % a 0,3 %.",
-    "Chrome en segundo plano ya no corre servicios que no hacen falta (actualizaciones de componentes, sincronización) y libera memoria al ocultarse.",
-    "Se puede apagar en Ajustes → Segundo plano → «Gastar lo mínimo»."
+    "Matt crea imágenes con solo pedirlas: «generame un gato astronauta», «dibujame un dragón», «haceme un logo». Elige solo el mejor generador disponible y, si no tenés ninguno, usa uno gratuito por internet.",
+    "Mientras se crea la imagen ves el lienzo tomando forma con el porcentaje de avance, también en la isla.",
+    "Matt muestra varias fotos reales de toda la web, no una sola: una grande y miniaturas que abren su fuente. En la isla pasan solas. «Mostrame fotos de…» responde al instante.",
+    "Matt investiga en la web por su cuenta cuando la pregunta es de actualidad (precios, resultados, noticias): lee las mejores páginas y te dice de dónde sale el dato.",
+    "Matt habla más como una persona: reacciona, opina con sus porqués y sigue la charla. El motor local reutiliza lo ya procesado y empieza a responder antes.",
+    "Cuando Matt piensa, la isla se despliega con Matt en 8 bits, una nube de idea que muestra qué está haciendo y el botón «Matt Chat», que sigue la misma conversación (con las imágenes incluidas).",
+    "Barras de progreso onduladas y animadas en la isla: Matt, actividades y la música mientras suena.",
+    "Mensajes más ordenados: los de un mismo chat se apilan en el aviso que ya ves, una ráfaga de varios chats se resume en uno solo y, si ya estás mirando WhatsApp, la isla no te interrumpe.",
+    "El centro de control se guarda siempre al tocar afuera.",
+    "Widget nuevo: GIF en bucle, con un selector chiquito junto al widget. Se pausa cuando no se ve o estás jugando.",
+    "Los widgets ya no aparecen al elegir una ventana para transmitir en Discord.",
+    "El dock trabaja menos cuando abrís apps como Discord.",
+    "Ajustes → Desinstalar permite quitar también las apps incluidas (WhatsApp, Discord, Instagram, la suite creativa y más). Se vuelven a instalar al instante desde la Tienda, en «Apps de CoreOS».",
+    "La Tienda muestra una sola barra de descarga con el progreso total, el tamaño, la velocidad y el tiempo restante."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.3.2/corelab-core_27.3.2_all.deb",
-  "sha256": "17be2f09b62515c8541c05f7abe6cc5e546aff2293bd801dce36d786fa689301",
-  "tamaño": 200771992
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.5/corelab-core_27.5_all.deb",
+  "sha256": "4c9fcf3b58e2c5bfff150e4bb037e2040636be894bb7e8b5dbdaab08efc1b44e",
+  "tamaño": 200751544
 }
