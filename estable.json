@@ -1,13 +1,20 @@
 {
-  "version": "27.1.2",
+  "version": "27.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.1.2",
-  "fecha": "2026-11-09",
+  "titulo": "CoreOS 27.2",
+  "fecha": "2026-11-10",
   "notas": [
-    "Pantalla completa más estable en Modo Juego. Al entrar y salir con F11, Picom mantiene la composición activa para evitar recuadros negros.",
-    "Los juegos detectados conservan el perfil de rendimiento y se dibujan sin sombras, desenfoque ni animaciones de ventana."
+    "Matt Chat responde más fluido: mientras escribe sólo se recalcula el párrafo en curso, y las respuestas largas ya no tironean.",
+    "Matt Chat muestra fotos reales de Wikipedia cuando un ejemplo se entiende mejor viéndolo, con su título y el enlace a la fuente. Se apagan con EVE_FOTOS=0.",
+    "Respuestas de Matt más claras: van al grano, con pasos numerados, tablas, enlaces, casillas y citas, y el formato aparece mientras escribe.",
+    "Arreglo: con Matt Chat abierto dentro de una app, la app vuelve a recibir el teclado al tocarla o al cerrar el panel.",
+    "La isla acepta órdenes desde scripts: corelab-isla mostrar, actividad, fin e historial.",
+    "La terminal avisa en la isla cuando termina un comando que tardó 30 segundos o más, con su resultado. Se apaga con ISLA_COMANDOS=0.",
+    "La isla recuerda las últimas cinco actividades terminadas mientras dura la sesión.",
+    "Las actividades de otras apps se validan al llegar a la isla: un dato mal formado ya no afecta su dibujo.",
+    "Colores, radios y tiempos de las apps, del compositor y de GTK 4 salen de una sola fuente de diseño."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.1.2/corelab-core_27.1.2_all.deb",
-  "sha256": "7c99dad2bb1c08e89c13553cf1b29dad3f12e04ac11274add80eedacd2816499",
-  "tamaño": 200583752
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.2/corelab-core_27.2_all.deb",
+  "sha256": "62b36a027d8af13412b1edfe0376d0bdec31dd5ef71e9fee2a5b9d7d16a94ed4",
+  "tamaño": 200572828
 }
