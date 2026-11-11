@@ -1,19 +1,23 @@
 {
-  "version": "27.6.4",
+  "version": "27.7",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.6.4",
+  "titulo": "CoreOS 27.7",
   "fecha": "2026-11-11",
   "notas": [
-    "Matt Chat más legible en los temas claro y oscuro: contraste de enlaces corregido, texto más grande, burbujas amplias y aprovechamiento de la ventana. La mascota permanece visible en la cabecera.",
-    "Fotos adaptables al ancho de la conversación y visor integrado de imágenes, con zoom, ajuste a ventana y pantalla completa. Las imágenes generadas también utilizan el visor.",
-    "Matt de la isla permite ampliar respuestas con imágenes y videos en una ventana multimedia. Las tarjetas de YouTube permiten reproducir el video dentro del panel ampliado.",
-    "Consumo de tokens de entrada y salida cuando lo informa Gemini, Claude o un proveedor compatible. Se muestra el saldo de la ventana de tokens si el proveedor envía ese dato; no se inventa la cuota de la cuenta.",
-    "Recomendaciones ajustadas al contexto y las preferencias explícitas, con preguntas cuando falta información decisiva. Sugerencias de continuación específicas de cada conversación; se quitan los botones genéricos fijos.",
-    "Envío con transición del botón y rebote de burbujas afinado; menor trabajo de composición al alcanzar opacidad completa. La isla anima tanto la salida como el regreso de Matt.",
-    "Isla: cálculo compartido de los factores de animación de las bandas de audio. Centro de control: se evitan refrescos por contadores de tráfico y posición que no cambian sus controles. Notificaciones: se agrupan las actualizaciones visuales durante el desplazamiento.",
-    "Pantalla de bloqueo: arrastre absoluto en posición de reproducción y volumen; corrección de coordenadas del puntero cuando la ventana no está en el origen de la pantalla. Se conservan los efectos y animaciones fuera del modo juego."
+    "Pantalla de bloqueo: el reproductor vuelve a mostrar la música (el servicio que la publica no arrancaba en el sistema instalado). Los controles de la réplica AOD se ven con claridad.",
+    "Isla y dock con cristal desenfocado de verdad, sólo bajo la cápsula y la base: lo hace la placa de video y se apaga en modo juego.",
+    "Isla: temporizador rediseñado con anillo continuo, línea de progreso y hora de fin; pulso de luz al llegar un aviso; tocar un aviso o una actividad abre su app; la actividad de Matt Chat se despliega y abre el chat.",
+    "Centro de control más rápido al abrir: las lecturas esperan a que termine la animación y el panel ya armado se conserva mientras sobre memoria.",
+    "Buscador con animación de salida completa, sin corte.",
+    "Instalar paquetes .deb con doble clic: pide permiso y muestra el porcentaje en la isla; al terminar ofrece abrir la app.",
+    "Diálogo de permisos al estilo del control de cuentas: quién pide el permiso, si es de CoreOS, y botones Sí y No.",
+    "Matt: libera memoria por su cuenta antes de decir que no alcanza; lee menos del historial en cada pregunta con el modelo local y usa un hilo por núcleo físico para escribir más rápido.",
+    "Matt Chat: barra de opciones unificada y alineada, íconos visibles en tema oscuro, Matt siempre visible en modo ventana y CoreCode como sección propia con su ícono y su lista.",
+    "Ajustes y Matt Chat abren al instante después de cerrarlos (quedan listos unos minutos según la RAM libre). Maximizar y restaurar tamaño vuelve a funcionar en ambos.",
+    "OwlCore es sólo la biblioteca de juegos (no abre .exe) y muestra las carátulas de los juegos.",
+    "Modo juego: además libera cachés de los componentes de CoreOS al empezar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.6.4/corelab-core_27.6.4_all.deb",
-  "sha256": "497a226585fce63551f1b71647c9639ba207059cee226aeb40b6e85ad197c9db",
-  "tamaño": 200608244
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7/corelab-core_27.7_all.deb",
+  "sha256": "e962b34aa09d57467fecad202df3db3a2f6cfd524ddd450c89fefabb3c735d68",
+  "tamaño": 200636752
 }
