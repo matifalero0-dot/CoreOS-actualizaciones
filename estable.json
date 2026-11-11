@@ -1,23 +1,16 @@
 {
-  "version": "27.7",
+  "version": "27.7.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.7",
+  "titulo": "CoreOS 27.7.1",
   "fecha": "2026-11-11",
   "notas": [
-    "Pantalla de bloqueo: el reproductor vuelve a mostrar la música (el servicio que la publica no arrancaba en el sistema instalado). Los controles de la réplica AOD se ven con claridad.",
-    "Isla y dock con cristal desenfocado de verdad, sólo bajo la cápsula y la base: lo hace la placa de video y se apaga en modo juego.",
-    "Isla: temporizador rediseñado con anillo continuo, línea de progreso y hora de fin; pulso de luz al llegar un aviso; tocar un aviso o una actividad abre su app; la actividad de Matt Chat se despliega y abre el chat.",
-    "Centro de control más rápido al abrir: las lecturas esperan a que termine la animación y el panel ya armado se conserva mientras sobre memoria.",
-    "Buscador con animación de salida completa, sin corte.",
-    "Instalar paquetes .deb con doble clic: pide permiso y muestra el porcentaje en la isla; al terminar ofrece abrir la app.",
-    "Diálogo de permisos al estilo del control de cuentas: quién pide el permiso, si es de CoreOS, y botones Sí y No.",
-    "Matt: libera memoria por su cuenta antes de decir que no alcanza; lee menos del historial en cada pregunta con el modelo local y usa un hilo por núcleo físico para escribir más rápido.",
-    "Matt Chat: barra de opciones unificada y alineada, íconos visibles en tema oscuro, Matt siempre visible en modo ventana y CoreCode como sección propia con su ícono y su lista.",
-    "Ajustes y Matt Chat abren al instante después de cerrarlos (quedan listos unos minutos según la RAM libre). Maximizar y restaurar tamaño vuelve a funcionar en ambos.",
-    "OwlCore es sólo la biblioteca de juegos (no abre .exe) y muestra las carátulas de los juegos.",
-    "Modo juego: además libera cachés de los componentes de CoreOS al empezar."
+    "Matt edita el sistema con tu permiso: cambia preferencias de CoreOS mostrando el valor actual y el nuevo, y en CoreCode propone cambios a archivos de configuración con las diferencias, un respaldo y la contraseña de administrador. Nunca toca contraseñas, sudo, PAM, polkit ni SSH.",
+    "Matt Chat muestra su razonamiento mientras trabaja: Matt 8 bits pensando, el paso actual, los pasos ya hechos y el tiempo. La barra de progreso, que no llegaba a mostrarse, vuelve a verse.",
+    "Dock con acabado de cristal: relieve, filo de luz y un velo muy leve del color de acento, en claro y oscuro.",
+    "Centro de control: nuevos controles Cafeína, Stream y Repetición instantánea, con su estado real.",
+    "Widgets nuevos: Luna (fase, iluminación y próxima luna llena, calculada en el equipo) y Dispositivos (batería de auriculares, mouse, teclados y mandos inalámbricos)."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7/corelab-core_27.7_all.deb",
-  "sha256": "e962b34aa09d57467fecad202df3db3a2f6cfd524ddd450c89fefabb3c735d68",
-  "tamaño": 200636752
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.1/corelab-core_27.7.1_all.deb",
+  "sha256": "403535d0277ce95cd4f8f82846596e77a5b7bba813a74f86b19b82bfb1e8efb2",
+  "tamaño": 200631740
 }
