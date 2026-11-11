@@ -1,16 +1,12 @@
 {
-  "version": "27.7.1",
+  "version": "27.7.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.7.1",
+  "titulo": "CoreOS 27.7.2",
   "fecha": "2026-11-11",
   "notas": [
-    "Matt edita el sistema con tu permiso: cambia preferencias de CoreOS mostrando el valor actual y el nuevo, y en CoreCode propone cambios a archivos de configuración con las diferencias, un respaldo y la contraseña de administrador. Nunca toca contraseñas, sudo, PAM, polkit ni SSH.",
-    "Matt Chat muestra su razonamiento mientras trabaja: Matt 8 bits pensando, el paso actual, los pasos ya hechos y el tiempo. La barra de progreso, que no llegaba a mostrarse, vuelve a verse.",
-    "Dock con acabado de cristal: relieve, filo de luz y un velo muy leve del color de acento, en claro y oscuro.",
-    "Centro de control: nuevos controles Cafeína, Stream y Repetición instantánea, con su estado real.",
-    "Widgets nuevos: Luna (fase, iluminación y próxima luna llena, calculada en el equipo) y Dispositivos (batería de auriculares, mouse, teclados y mandos inalámbricos)."
+    "Dock e isla: se quitó la capa de cristal desenfocado. En algunos equipos quedaba encima del dock y lo dejaba borroso; vuelven a verse nítidos, con sus placas propias."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.1/corelab-core_27.7.1_all.deb",
-  "sha256": "403535d0277ce95cd4f8f82846596e77a5b7bba813a74f86b19b82bfb1e8efb2",
-  "tamaño": 200631740
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.2/corelab-core_27.7.2_all.deb",
+  "sha256": "5f021f4e4aedc115e72d058af76158e027be339a8e83d0fa3b24d14c6fa66837",
+  "tamaño": 200623428
 }
