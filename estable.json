@@ -1,15 +1,23 @@
 {
-  "version": "27.6.2",
+  "version": "27.6.3",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.6.2",
+  "titulo": "CoreOS 27.6.3",
   "fecha": "2026-11-11",
   "notas": [
-    "Matt Chat con Gemini vuelve a responder: se corrigió el «HTTP 400» por herramientas mal descritas. Las herramientas ahora se envían en un formato que aceptan todos los proveedores (Gemini, ChatGPT, Claude y los demás).",
-    "El sonido de «pensando» de Matt Chat se repite suavemente hasta que llega la respuesta, y se apaga al terminar, al detenerla o al cerrar el chat.",
-    "Matt usa tu ubicación real (redes Wi-Fi cercanas) sólo si le das permiso: la primera vez que la necesita te lo pregunta. Sin permiso usa la ciudad del clima. El indicador de privacidad de la isla avisa cuando se usó.",
-    "La isla: deslizar para desplegarla mientras Matt Chat piensa ya no abre el panel de Matt; se despliega la actividad del chat."
+    "Matt Chat y CoreCode: interfaz redondeada, burbujas y tarjetas de imágenes, videos, mapas y fuentes; aviso de que Matt puede equivocarse.",
+    "Selectores de cuentas y modelos compactos, con búsqueda y listas de altura limitada. Se puede elegir proveedor y modelo por conversación, también en CoreCode y con los modelos locales.",
+    "CoreCode recuerda el proyecto elegido aunque el chat esté vacío. Matt recibe la carpeta abierta como contexto y resuelve sus rutas relativas dentro del proyecto.",
+    "Correcciones del formato de herramientas de Gemini y de respuestas de proveedores compatibles, incluido Groq. Se conservan las firmas de llamadas de Gemini y los resultados de herramientas si falla la respuesta del modelo.",
+    "Ubicación con consentimiento en cada consulta: «No compartir» o «Compartir esta vez». Coordenadas, fuente y precisión reales cuando están disponibles; la ciudad del clima no se presenta como ubicación actual.",
+    "Investigación web con lectura de páginas, comparación de fuentes y capturas. Contexto local ajustado a la RAM y al modelo, respuestas configurables y preguntas cuando falta información.",
+    "Memoria compartida entre modelos y proveedores, con datos duraderos que se pueden revisar y borrar. Cifrado AES-256-GCM para recuerdos, conversaciones e índices de Matt; la clave se conserva en el llavero del sistema.",
+    "Mejoras de fluidez y RAM: reloj de animación compartido, pausa de trabajo oculto, caché de iconos y supervisor de sesión consolidado. Se mantienen los efectos del modo normal.",
+    "Modo juego: prioridad para el juego, sus hilos y procesos secundarios; reducción de animaciones y efectos mientras está activo y restauración de prioridades al salir.",
+    "Menú de segundo plano redondeado y sólo con iconos, con detección de Claude y otras apps residentes y mejor unión con los iconos de la bandeja.",
+    "Cierre de sesión: los supervisores y sus componentes terminan con la sesión para poder iniciarse correctamente al volver a entrar.",
+    "El sonido de Matt pensando se detiene al terminar, cancelar o cerrar el chat. Desplegar la isla durante una respuesta conserva la actividad del chat."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.6.2/corelab-core_27.6.2_all.deb",
-  "sha256": "658a5e1f588c4b638ea0ab681fec813ab9ae77fd7026acbd0b360450640a90c9",
-  "tamaño": 200558028
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.6.3/corelab-core_27.6.3_all.deb",
+  "sha256": "945048c90009f73c8ade40c31b73baeadc69377daf069f5c69b6406d378da3e9",
+  "tamaño": 200587560
 }
