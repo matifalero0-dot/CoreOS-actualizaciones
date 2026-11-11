@@ -1,12 +1,22 @@
 {
-  "version": "27.7.2",
+  "version": "27.7.3",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.7.2",
+  "titulo": "CoreOS 27.7.3",
   "fecha": "2026-11-11",
   "notas": [
-    "Dock e isla: se quitó la capa de cristal desenfocado. En algunos equipos quedaba encima del dock y lo dejaba borroso; vuelven a verse nítidos, con sus placas propias."
+    "Matt Chat: contexto de carga estable, reutilización del modelo y texto por tandas, sin el efecto que demoraba y cortaba el formato. Entradas más sutiles y transiciones suaves entre conversaciones.",
+    "Controles de proveedor, modelo, búsqueda, extensión y esfuerzo Rápido/Equilibrado/Profundo. El esfuerzo ajusta la extensión y los pasos de verificación; depende de la capacidad del modelo elegido.",
+    "Memoria relevante y búsqueda en conversaciones anteriores, referencias al intercambio anterior y respuestas con explicaciones, alternativas y contexto. Se respeta la memoria desactivada.",
+    "Nuevas herramientas: edición local de fotos en varios pasos, recorte, tamaño, texto, filtros y mejora; OCR; análisis y creación de CSV; comparación de documentos y búsqueda dentro del proyecto. Los archivos se entregan en el chat y las fotos editadas tienen vista previa.",
+    "CoreCode: planificación, consulta de documentación oficial y comprobación de cambios. Cada propuesta de configuración del sistema muestra las diferencias, términos y confirmación escribiendo Acepto; mantiene respaldo, límites y autenticación de administrador.",
+    "Matt de la isla conserva los pedidos breves y abre Matt Chat o CoreCode con el contexto para trabajos complejos.",
+    "Isla: corregida la diagonal sobre Codex y la coordinación con Matt Chat en segundo plano. Progreso recto con avance luminoso en lugar de ondas. Super + Alt + arriba/abajo cambia actividades; Ctrl + izquierda/derecha funciona dentro de la isla.",
+    "Las ventanas asociadas a actividades vivas se minimizan hacia la isla y se restauran desde ella. Las demás mantienen su recorrido al dock.",
+    "Grabación: colas de video acotadas por resolución, caché de codificadores y modo de bajo consumo VA-API sólo si supera su prueba. Optimización de perfiles OBS con respaldo y motores confirmados por cada instalación, disponible en Ajustes → Drivers.",
+    "Juegos: más identificadores de Steam, GOG, Heroic y Lutris, prioridad también para hilos creados después del arranque y liberación de IA respetando las consultas activas. Jugar con CoreOS prepara ejecutables independientes; OwlCore elige compatibilidad automática según Vulkan disponible y conserva las opciones manuales.",
+    "Accesos directos desde el menú contextual de aplicaciones y Archivos. Correcciones para Steam nativo/Flatpak y para los accesos que crea en el escritorio."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.2/corelab-core_27.7.2_all.deb",
-  "sha256": "5f021f4e4aedc115e72d058af76158e027be339a8e83d0fa3b24d14c6fa66837",
-  "tamaño": 200623428
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.3/corelab-core_27.7.3_all.deb",
+  "sha256": "a46b2fdd9b98673a497264876a5d27108bcea538cf149c93c0a4e0ae590d4deb",
+  "tamaño": 200685492
 }
