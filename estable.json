@@ -1,23 +1,19 @@
 {
-  "version": "27.6.3",
+  "version": "27.6.4",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.6.3",
+  "titulo": "CoreOS 27.6.4",
   "fecha": "2026-11-11",
   "notas": [
-    "Matt Chat y CoreCode: interfaz redondeada, burbujas y tarjetas de imágenes, videos, mapas y fuentes; aviso de que Matt puede equivocarse.",
-    "Selectores de cuentas y modelos compactos, con búsqueda y listas de altura limitada. Se puede elegir proveedor y modelo por conversación, también en CoreCode y con los modelos locales.",
-    "CoreCode recuerda el proyecto elegido aunque el chat esté vacío. Matt recibe la carpeta abierta como contexto y resuelve sus rutas relativas dentro del proyecto.",
-    "Correcciones del formato de herramientas de Gemini y de respuestas de proveedores compatibles, incluido Groq. Se conservan las firmas de llamadas de Gemini y los resultados de herramientas si falla la respuesta del modelo.",
-    "Ubicación con consentimiento en cada consulta: «No compartir» o «Compartir esta vez». Coordenadas, fuente y precisión reales cuando están disponibles; la ciudad del clima no se presenta como ubicación actual.",
-    "Investigación web con lectura de páginas, comparación de fuentes y capturas. Contexto local ajustado a la RAM y al modelo, respuestas configurables y preguntas cuando falta información.",
-    "Memoria compartida entre modelos y proveedores, con datos duraderos que se pueden revisar y borrar. Cifrado AES-256-GCM para recuerdos, conversaciones e índices de Matt; la clave se conserva en el llavero del sistema.",
-    "Mejoras de fluidez y RAM: reloj de animación compartido, pausa de trabajo oculto, caché de iconos y supervisor de sesión consolidado. Se mantienen los efectos del modo normal.",
-    "Modo juego: prioridad para el juego, sus hilos y procesos secundarios; reducción de animaciones y efectos mientras está activo y restauración de prioridades al salir.",
-    "Menú de segundo plano redondeado y sólo con iconos, con detección de Claude y otras apps residentes y mejor unión con los iconos de la bandeja.",
-    "Cierre de sesión: los supervisores y sus componentes terminan con la sesión para poder iniciarse correctamente al volver a entrar.",
-    "El sonido de Matt pensando se detiene al terminar, cancelar o cerrar el chat. Desplegar la isla durante una respuesta conserva la actividad del chat."
+    "Matt Chat más legible en los temas claro y oscuro: contraste de enlaces corregido, texto más grande, burbujas amplias y aprovechamiento de la ventana. La mascota permanece visible en la cabecera.",
+    "Fotos adaptables al ancho de la conversación y visor integrado de imágenes, con zoom, ajuste a ventana y pantalla completa. Las imágenes generadas también utilizan el visor.",
+    "Matt de la isla permite ampliar respuestas con imágenes y videos en una ventana multimedia. Las tarjetas de YouTube permiten reproducir el video dentro del panel ampliado.",
+    "Consumo de tokens de entrada y salida cuando lo informa Gemini, Claude o un proveedor compatible. Se muestra el saldo de la ventana de tokens si el proveedor envía ese dato; no se inventa la cuota de la cuenta.",
+    "Recomendaciones ajustadas al contexto y las preferencias explícitas, con preguntas cuando falta información decisiva. Sugerencias de continuación específicas de cada conversación; se quitan los botones genéricos fijos.",
+    "Envío con transición del botón y rebote de burbujas afinado; menor trabajo de composición al alcanzar opacidad completa. La isla anima tanto la salida como el regreso de Matt.",
+    "Isla: cálculo compartido de los factores de animación de las bandas de audio. Centro de control: se evitan refrescos por contadores de tráfico y posición que no cambian sus controles. Notificaciones: se agrupan las actualizaciones visuales durante el desplazamiento.",
+    "Pantalla de bloqueo: arrastre absoluto en posición de reproducción y volumen; corrección de coordenadas del puntero cuando la ventana no está en el origen de la pantalla. Se conservan los efectos y animaciones fuera del modo juego."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.6.3/corelab-core_27.6.3_all.deb",
-  "sha256": "945048c90009f73c8ade40c31b73baeadc69377daf069f5c69b6406d378da3e9",
-  "tamaño": 200587560
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.6.4/corelab-core_27.6.4_all.deb",
+  "sha256": "497a226585fce63551f1b71647c9639ba207059cee226aeb40b6e85ad197c9db",
+  "tamaño": 200608244
 }
