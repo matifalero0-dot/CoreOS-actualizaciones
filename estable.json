@@ -1,9 +1,11 @@
 {
-  "version": "27.8.4",
+  "version": "27.8.5",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.4",
+  "titulo": "CoreOS 27.8.5",
   "fecha": "2026-11-12",
   "notas": [
+    "Isla: al arrastrar un archivo cerca, Matt 8 bits baja colgado boca abajo desde la isla, sigue al archivo y abre la boca cuanto más se acerca; si lo soltás se lo come y aparecen las opciones, y si lo alejás se esconde.",
+    "Isla: tocar la actividad de Claude Code o de Codex ahora trae al frente la ventana donde está trabajando (la app de Claude o de ChatGPT, la terminal o el editor); antes no abría nada.",
     "Isla: soltá archivos encima y elegí Enviar (Core Drop), Comprimir, Convertir o pasárselos a Matt.",
     "Isla: prueba de velocidad de internet en el menú de clic derecho, con bajada, subida y latencia en vivo.",
     "Isla: el menú de clic derecho se elige y se ordena en Ajustes → Isla (hasta 10 atajos: Matt, nota, calculadora, liberar memoria, bloquear y más).",
@@ -29,7 +31,7 @@
     "Rendimiento: las apps minimizadas que no hacen nada se congelan y se despiertan al instante al abrirlas (nunca música, llamadas, descargas, juegos ni mensajes).",
     "Rendimiento: las interrupciones de video, red y disco se reparten entre núcleos; latencia de audio ajustable (baja automática en Modo Juego); límite de FPS por juego en OwlCore; la Limpieza encuentra datos de juegos de Steam desinstalados."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.4/corelab-core_27.8.4_all.deb",
-  "sha256": "ac5fe9ba259b9890f7c8e5066f26d3f19c2e835b9715ecba89f84e061ed489b0",
-  "tamaño": 200750820
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.5/corelab-core_27.8.5_all.deb",
+  "sha256": "82d9f1591054ad09691e62401ef85c85d2888d15afc4f0cc48329a0cbe2670f2",
+  "tamaño": 200764400
 }
