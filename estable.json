@@ -1,16 +1,17 @@
 {
-  "version": "27.8.6",
+  "version": "27.8.7",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.6",
+  "titulo": "CoreOS 27.8.7",
   "fecha": "2026-11-12",
   "notas": [
-    "Presentaciones (Estudio creativo) en español: CoreOS la compila con la interfaz traducida (cinta, menús, botones, ayudas, diálogos y los textos guía de las diapositivas). Sigue el idioma del sistema; con el sistema en otro idioma se abre la versión original.",
-    "Las traducciones de Presentaciones están en /usr/share/corelab/traducciones/deckcraft-es.tsv y se pueden mejorar sin recompilar.",
-    "LibreOffice y Core Office en el idioma del sistema: si están instalados sin el paquete de idioma, CoreOS lo agrega solo unos minutos después de actualizar.",
-    "Isla: al arrastrar un archivo cerca, Matt 8 bits baja colgado boca abajo, sigue al archivo y se lo come al soltarlo; si lo alejás, se esconde.",
-    "Isla: tocar la actividad de Claude Code o de Codex trae al frente la ventana donde está trabajando."
+    "Matt crea DOCX y PPTX con fotos adjuntas o buscadas en la web, incrustadas en el archivo y con sus fuentes. Usa su herramienta de documentos sin pedirte comandos Python.",
+    "Matt prepara automáticamente los componentes conocidos que falten, avisa la descarga, comprueba que funcionan y retoma el pedido. Las bibliotecas de documentos y pip se incluyen como dependencias de la actualización.",
+    "Matt puede continuar tareas de varios pasos más allá de las seis rondas anteriores, conserva los resultados y frena repeticiones sin avance. Revisa el archivo real antes de entregarlo y respeta permisos y modo local.",
+    "WhatsApp: Ctrl+W sale del chat sin cerrar la app. El atajo se captura sólo en su ventana y envía Escape al chat; las demás apps conservan Ctrl+W.",
+    "Ajustes: ventana, secciones, opciones y botones con bordes redondeados visibles; separación uniforme y controles alineados. Botones de volver, avanzar y secciones más compactos. Conserva el aspecto al recargar el tema y se adapta al ancho de la ventana.",
+    "Después de instalar, reiniciá la sesión para cargar los cambios de Matt y del servicio de WhatsApp."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.6/corelab-core_27.8.6_all.deb",
-  "sha256": "f30d349e6f4a89ec285b0ef978b0e47457d8e0ca3236bacb6f18c3ad9f0fe159",
-  "tamaño": 218622684
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.7/corelab-core_27.8.7_all.deb",
+  "sha256": "34a6cddeba8b8c55dcef5a4a7a88350571d24627e77aaf0ab5f5a342ae3ec8b9",
+  "tamaño": 218615512
 }
