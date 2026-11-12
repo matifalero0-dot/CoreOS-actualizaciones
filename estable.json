@@ -1,21 +1,24 @@
 {
-  "version": "27.8.8",
+  "version": "27.8.9",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.8",
+  "titulo": "CoreOS 27.8.9",
   "fecha": "2026-11-12",
   "notas": [
-    "Matt local: contexto automático que crece cuando la tarea lo necesita, según el límite nativo del modelo y la RAM libre. Reutiliza el modelo ampliado y ajusta la salida para crear archivos y código; conserva los límites manuales elegidos.",
-    "Matt Chat, Matt en la isla y las utilidades comparten el motor local y serializan las consultas para que una carga no interrumpa a otra. Caché de conversación explícita y código en vivo con inserción incremental.",
-    "RAM y fluidez general: un solo gestor de recuperación de memoria por proceso, sin congelar objetos descartables. Las apps ocultas retenidas para apertura rápida se liberan ante presión; Ajustes limita las vistas guardadas. Se conservan efectos, desenfoque y animaciones.",
-    "Ajustes: quitar o cambiar un modelo conserva la pestaña, el desplazamiento y el historial. El borrado se hace en segundo plano. Se cancelan apariciones pendientes de páginas destruidas al navegar rápido.",
-    "Isla: tocar Codex o Claude restaura su ventana existente. Reconoce sus identidades de escritorio, oculta la actividad cuando la app está al frente y retira turnos completados.",
-    "Bloqueo: una sola instancia de la escena y del residente integrado. Si se pierde la respuesta de la escena, el guardián reintenta sin dibujar otra pantalla de acceso.",
-    "Seguridad → Contraseña de usuario y PIN: cambiar contraseña desde un popup con contraseña actual, nueva y confirmación. Al quitar la contraseña de inicio, se activa el acceso directo y la contraseña de esta cuenta para administrar y desbloquear pasa a root01, visible en la sección. Al poner una contraseña personal se vuelve a pedir al iniciar y sirve también para administrar. Ninguna contraseña se cambia al instalar la actualización.",
-    "PIN: corregido el error que impedía abrir su popup. Verifica el servicio y el acceso desde la cuenta antes de confirmar, restaura el PIN anterior si falla y comparte el límite de intentos entre inicio y bloqueo. El PIN no autoriza sudo ni tareas de administrador.",
-    "Popups de contraseña y PIN: cabecera con contraste correcto, texto más grande, etiquetas permanentes, campos amplios y botón de guardar legible en claro y oscuro. Opción para mostrar las contraseñas mientras se escriben.",
-    "Después de instalar, reiniciá la sesión para cargar todas las interfaces y residentes nuevos."
+    "Matt piensa mejor con modelos locales: decide solo cuándo razonar (cuentas, código, comparaciones, planes) y muestra el razonamiento plegado arriba de la respuesta. Si se queda sin presupuesto de pensamiento, contesta directo en lugar de fallar.",
+    "Matt es más rápido: el motor local usa flash attention, contexto en 8 bits (la mitad de RAM) y decodificación especulativa. Con el modelo de 7B de este equipo pasó de 5,3 a 8,6 palabras-token por segundo. Si un equipo no lo soporta, vuelve solo a la configuración anterior.",
+    "Matt Chat abre antes: el asistente y sus herramientas se cargan después de mostrar la ventana.",
+    "Matt Chat trabaja con tus apps (no juegos): abre una app con un archivo o una dirección, te dice qué app abre cada tipo de archivo, trae al frente o cierra ventanas, controla la música de cualquier reproductor y deja listo un correo, WhatsApp o Telegram para que lo revises y lo envíes.",
+    "Ajustes → Sistema → Recuperación: revisa datos de Matt, ajustes y archivos de CoreOS; repone la última copia buena o rescata lo legible (lo dañado se guarda aparte), termina instalaciones a medias y reinstala los componentes firmados sin tocar tus archivos.",
+    "Impresoras con Propiedades como en Windows: preferencias de impresión (papel, orientación, color, doble faz, calidad, bandeja, copias y opciones del controlador), nombre, ubicación, compartir en red, página de prueba y cola de impresión con pausar, reanudar y cancelar.",
+    "Microsoft Office con el motor de Wine: al abrir su instalador se prepara una botella propia con msxml6, riched20, gdiplus y Visual C++, los arreglos de pantalla negra y accesos para Word, Excel y PowerPoint. Si Word no abre, prueba otras configuraciones hasta que abra. Microsoft 365 (Click-to-Run) sigue siendo limitado en Wine: se ofrece Office web o Core Office.",
+    "Modo Juego y Stream con animación de entrada premium (emblema, anillos, chispas y estado); los demás modos con una transición suave. Se dibuja una sola vez al cambiar de modo y se cierra; no queda nada corriendo.",
+    "Isla: Matt 8 bits queda dentro del contorno de la isla compacta o abierta al recibir archivos y ya no aparece el recuadro naranja. Estela de movimiento más notoria en todas las actividades con el mismo costo.",
+    "Archivos: la selección en la vista de lista es una franja continua (sin cortes ni rombos) y el doble clic abre carpetas y archivos.",
+    "Ajustes más ágil: Widgets abre al instante (miniaturas en segundo plano), Acerca de, Privacidad y Juegos ya no esperan a comandos externos en cada visita.",
+    "Gráficos: video por hardware y firmware completos para NVIDIA, AMD e Intel al instalar drivers desde Juegos.",
+    "Bloqueo más legible sobre fondos claros (pista, firma, nombre y clima)."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.8/corelab-core_27.8.8_all.deb",
-  "sha256": "7fa3e81b97121cb3929b6a1bbe0d84ba6d49c2e42aa23d0574b79b5c6775493e",
-  "tamaño": 218582800
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.9/corelab-core_27.8.9_all.deb",
+  "sha256": "06efe96781f105e4157c967df2dbd2ef901f192b5eb647152d8b818fbb248f94",
+  "tamaño": 218567536
 }
