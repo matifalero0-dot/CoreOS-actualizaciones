@@ -1,17 +1,21 @@
 {
-  "version": "27.8.7",
+  "version": "27.8.8",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.7",
+  "titulo": "CoreOS 27.8.8",
   "fecha": "2026-11-12",
   "notas": [
-    "Matt crea DOCX y PPTX con fotos adjuntas o buscadas en la web, incrustadas en el archivo y con sus fuentes. Usa su herramienta de documentos sin pedirte comandos Python.",
-    "Matt prepara automáticamente los componentes conocidos que falten, avisa la descarga, comprueba que funcionan y retoma el pedido. Las bibliotecas de documentos y pip se incluyen como dependencias de la actualización.",
-    "Matt puede continuar tareas de varios pasos más allá de las seis rondas anteriores, conserva los resultados y frena repeticiones sin avance. Revisa el archivo real antes de entregarlo y respeta permisos y modo local.",
-    "WhatsApp: Ctrl+W sale del chat sin cerrar la app. El atajo se captura sólo en su ventana y envía Escape al chat; las demás apps conservan Ctrl+W.",
-    "Ajustes: ventana, secciones, opciones y botones con bordes redondeados visibles; separación uniforme y controles alineados. Botones de volver, avanzar y secciones más compactos. Conserva el aspecto al recargar el tema y se adapta al ancho de la ventana.",
-    "Después de instalar, reiniciá la sesión para cargar los cambios de Matt y del servicio de WhatsApp."
+    "Matt local: contexto automático que crece cuando la tarea lo necesita, según el límite nativo del modelo y la RAM libre. Reutiliza el modelo ampliado y ajusta la salida para crear archivos y código; conserva los límites manuales elegidos.",
+    "Matt Chat, Matt en la isla y las utilidades comparten el motor local y serializan las consultas para que una carga no interrumpa a otra. Caché de conversación explícita y código en vivo con inserción incremental.",
+    "RAM y fluidez general: un solo gestor de recuperación de memoria por proceso, sin congelar objetos descartables. Las apps ocultas retenidas para apertura rápida se liberan ante presión; Ajustes limita las vistas guardadas. Se conservan efectos, desenfoque y animaciones.",
+    "Ajustes: quitar o cambiar un modelo conserva la pestaña, el desplazamiento y el historial. El borrado se hace en segundo plano. Se cancelan apariciones pendientes de páginas destruidas al navegar rápido.",
+    "Isla: tocar Codex o Claude restaura su ventana existente. Reconoce sus identidades de escritorio, oculta la actividad cuando la app está al frente y retira turnos completados.",
+    "Bloqueo: una sola instancia de la escena y del residente integrado. Si se pierde la respuesta de la escena, el guardián reintenta sin dibujar otra pantalla de acceso.",
+    "Seguridad → Contraseña de usuario y PIN: cambiar contraseña desde un popup con contraseña actual, nueva y confirmación. Al quitar la contraseña de inicio, se activa el acceso directo y la contraseña de esta cuenta para administrar y desbloquear pasa a root01, visible en la sección. Al poner una contraseña personal se vuelve a pedir al iniciar y sirve también para administrar. Ninguna contraseña se cambia al instalar la actualización.",
+    "PIN: corregido el error que impedía abrir su popup. Verifica el servicio y el acceso desde la cuenta antes de confirmar, restaura el PIN anterior si falla y comparte el límite de intentos entre inicio y bloqueo. El PIN no autoriza sudo ni tareas de administrador.",
+    "Popups de contraseña y PIN: cabecera con contraste correcto, texto más grande, etiquetas permanentes, campos amplios y botón de guardar legible en claro y oscuro. Opción para mostrar las contraseñas mientras se escriben.",
+    "Después de instalar, reiniciá la sesión para cargar todas las interfaces y residentes nuevos."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.7/corelab-core_27.8.7_all.deb",
-  "sha256": "34a6cddeba8b8c55dcef5a4a7a88350571d24627e77aaf0ab5f5a342ae3ec8b9",
-  "tamaño": 218615512
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.8/corelab-core_27.8.8_all.deb",
+  "sha256": "7fa3e81b97121cb3929b6a1bbe0d84ba6d49c2e42aa23d0574b79b5c6775493e",
+  "tamaño": 218582800
 }
