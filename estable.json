@@ -1,26 +1,18 @@
 {
-  "version": "27.8",
+  "version": "27.8.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8",
+  "titulo": "CoreOS 27.8.1",
   "fecha": "2026-11-11",
   "notas": [
-    "Pantalla de bloqueo: los botones de anterior, reproducir y siguiente responden al soltar el clic, también con el mouse que retiene el bloqueo. El toque que despierta la pantalla ya no deja los controles trabados.",
-    "Letras en el bloqueo sin símbolos raros: se limpian marcas de tiempo palabra por palabra, entidades HTML, caracteres invisibles y texto mal codificado. Los silencios se muestran con puntos suaves y las líneas largas se recortan sin empujar los controles.",
-    "Llamadas: atender ahora espera a que la app arme la llamada (antes se daba por fallido a los 2 segundos y volvía a sonar). Si el clic simulado no alcanza, se hace un clic real sobre el botón de la app. Con dos botones «Aceptar» se elige el que está a la vista.",
-    "Barras de música de la isla sincronizadas otra vez: ganancia automática acotada, golpes de graves resaltados, caída natural y sin cortes a cero en pausas cortas del medidor.",
-    "Ventanas a pantalla completa (videos, juegos, F11) que vuelven desde la isla o el dock, o que entran y salen de pantalla completa, usan un recorrido corto y liviano. Evita los trabones vistos en una GTX 1660 sin quitar animaciones al resto.",
-    "Steam se instala sólo desde la Tienda; Ajustes → Juegos abre su ficha en lugar de descargarlo aparte.",
-    "Matt Chat muestra los tokens y el crédito disponibles en la cuenta conectada (límites que informan OpenAI, Anthropic, Groq, Mistral, Cerebras y OpenRouter; crédito de OpenRouter y DeepSeek; consumo de Gemini y del modelo local), con el detalle integrado en la misma barra.",
-    "Nueva autonomía de Matt: Decide solo, Consulta lo clave o Pregunta antes. Las acciones protegidas (apagar, borrar, cambios del sistema, pantalla o ubicación) siguen pidiendo confirmación.",
-    "Matt razona antes de responder: plan corto en tareas de varios pasos, verificación de cifras y fechas, alternativas si un paso falla y opciones recomendadas ordenadas con su porqué. También en Matt de la isla.",
-    "Opciones de Matt Chat compactas, en tarjetas con íconos de acento.",
-    "Ajustes más fluido: la página de Matt abría en 3 segundos y ahora en menos de una décima; Impresoras, Fondo y Bloqueo ya no congelan la ventana; la galería de Widgets no consulta internet.",
-    "Reloj rediseñado: tarjeta principal con reloj analógico de barrido suave, semana y avance del año, y ciudades con el color de su momento del día.",
-    "Íconos propios para Salud del equipo y Línea de tiempo (antes repetían los de Diagnóstico y Calendario).",
-    "Menos RAM: los componentes residentes devuelven al sistema la memoria que liberan y limitan las arenas de memoria por hilo.",
-    "Abrir apps cuesta menos: el dock y la barra ya no releen archivos de apps ni íconos en cada cambio de título."
+    "Owlcore: ahora podés quitar juegos de la biblioteca (botón en el detalle o clic derecho). No se desinstalan ni se borran partidas; los de Steam, Epic y GOG quedan en «Quitados» y se pueden volver a mostrar.",
+    "Owlcore: los filtros de plataforma muestran cuántos juegos hay en cada una, y «Jugar ahora» sólo aparece con un juego elegido.",
+    "Centro de control: el modo edición es más preciso. La tarjeta va antes o después según el lado del puntero, responde más rápido y no salta entre dos huecos; el reacomodo se desliza con más suavidad.",
+    "Centro de notificaciones: filtros por app con la cantidad de avisos de cada una.",
+    "Coreview renovado: insignia y navegación con indicador de la sección activa, contadores en directo / guardadas / grabando y una bienvenida con sus funciones.",
+    "Pantalla de bloqueo: la letra de la canción va en una tarjeta propia, más fácil de leer.",
+    "Incluye todo lo de CoreOS 27.8."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8/corelab-core_27.8_all.deb",
-  "sha256": "7dd6890761deef7c856ba7e7c2c0dd2f4790fba7feecf8aaefa361794c74a211",
-  "tamaño": 200712440
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.1/corelab-core_27.8.1_all.deb",
+  "sha256": "168e355077e35b4ed9b29ee3aa32a70cb2915f77684babe9ae1f1377c49366fc",
+  "tamaño": 200686924
 }
