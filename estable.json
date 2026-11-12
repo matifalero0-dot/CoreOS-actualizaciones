@@ -1,22 +1,24 @@
 {
-  "version": "27.7.3",
+  "version": "27.7.4",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.7.3",
+  "titulo": "CoreOS 27.7.4",
   "fecha": "2026-11-11",
   "notas": [
-    "Matt Chat: contexto de carga estable, reutilización del modelo y texto por tandas, sin el efecto que demoraba y cortaba el formato. Entradas más sutiles y transiciones suaves entre conversaciones.",
-    "Controles de proveedor, modelo, búsqueda, extensión y esfuerzo Rápido/Equilibrado/Profundo. El esfuerzo ajusta la extensión y los pasos de verificación; depende de la capacidad del modelo elegido.",
-    "Memoria relevante y búsqueda en conversaciones anteriores, referencias al intercambio anterior y respuestas con explicaciones, alternativas y contexto. Se respeta la memoria desactivada.",
-    "Nuevas herramientas: edición local de fotos en varios pasos, recorte, tamaño, texto, filtros y mejora; OCR; análisis y creación de CSV; comparación de documentos y búsqueda dentro del proyecto. Los archivos se entregan en el chat y las fotos editadas tienen vista previa.",
-    "CoreCode: planificación, consulta de documentación oficial y comprobación de cambios. Cada propuesta de configuración del sistema muestra las diferencias, términos y confirmación escribiendo Acepto; mantiene respaldo, límites y autenticación de administrador.",
-    "Matt de la isla conserva los pedidos breves y abre Matt Chat o CoreCode con el contexto para trabajos complejos.",
-    "Isla: corregida la diagonal sobre Codex y la coordinación con Matt Chat en segundo plano. Progreso recto con avance luminoso en lugar de ondas. Super + Alt + arriba/abajo cambia actividades; Ctrl + izquierda/derecha funciona dentro de la isla.",
-    "Las ventanas asociadas a actividades vivas se minimizan hacia la isla y se restauran desde ella. Las demás mantienen su recorrido al dock.",
-    "Grabación: colas de video acotadas por resolución, caché de codificadores y modo de bajo consumo VA-API sólo si supera su prueba. Optimización de perfiles OBS con respaldo y motores confirmados por cada instalación, disponible en Ajustes → Drivers.",
-    "Juegos: más identificadores de Steam, GOG, Heroic y Lutris, prioridad también para hilos creados después del arranque y liberación de IA respetando las consultas activas. Jugar con CoreOS prepara ejecutables independientes; OwlCore elige compatibilidad automática según Vulkan disponible y conserva las opciones manuales.",
-    "Accesos directos desde el menú contextual de aplicaciones y Archivos. Correcciones para Steam nativo/Flatpak y para los accesos que crea en el escritorio."
+    "Corrección de sincronización de video con NVIDIA en el compositor: superficies completas y cadencia sin la espera predictiva adicional, manteniendo VSync, daño parcial, efectos y animaciones.",
+    "NVIDIA conserva la composición contra tearing sin forzar el escalado adicional de ForceFullCompositionPipeline. Reiniciá el equipo después de actualizar para aplicar también este ajuste de Xorg.",
+    "Los atajos de cambiar actividad envían una orden liviana a la isla que ya corre; no cargan toda la interfaz en cada pulsación. Las pulsaciones rápidas se agrupan por cuadro.",
+    "La actividad elegida con Super + Alt + ↑/↓ conserva el lugar principal mientras exista, también después de compactar la isla o volver desde su app.",
+    "Matt Chat y Matt Isla tienen presencia separada: las renovaciones de foco no reinician la transición ni repiten el rebote. Se evita el doble aviso al terminar una respuesta.",
+    "Matt Chat se despliega desde la isla y sus botones vuelven a la conversación correcta.",
+    "Matt Chat consulta cuentas y precalienta modelos fuera del hilo de dibujo. Rápido y Equilibrado evitan pensamiento oculto en modelos locales que admiten ese control; Profundo lo habilita.",
+    "Nuevo esfuerzo Automático: adapta el presupuesto a la tarea y conserva la posibilidad de elegirlo manualmente.",
+    "Permisos visibles en el chat: Aprobación necesaria o Aprobación permanente en carpetas elegidas, incluido el Escritorio. El consentimiento se puede revocar desde el mismo botón.",
+    "Diálogo de consentimiento renovado: tarjetas claras, mejor jerarquía, colores del sistema y acceso directo a las carpetas autorizadas.",
+    "Pantallas VGA y modos personalizados: se reconoce el nombre real del modo y se ofrece Full HD a la máxima frecuencia anunciada, incluidos 240 Hz cuando la conexión lo admite, con confirmación y reversión de cambios.",
+    "Crear textos, documentos, tablas y copias en el Escritorio con consentimiento y sin reemplazar archivos. Si falta permiso del sistema para crear un archivo, se ofrece autenticación administrativa para esa creación; la contraseña no se guarda en Matt.",
+    "Matt pregunta por datos que faltan, usa el contexto disponible y comprueba las herramientas antes de dar una acción por terminada. Los comandos y cambios del sistema conservan sus confirmaciones específicas."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.3/corelab-core_27.7.3_all.deb",
-  "sha256": "a46b2fdd9b98673a497264876a5d27108bcea538cf149c93c0a4e0ae590d4deb",
-  "tamaño": 200685492
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.7.4/corelab-core_27.7.4_all.deb",
+  "sha256": "97984013f9427473eb8e2cb92de3ded87fd724ad299c2b6213f845f2dd0638fd",
+  "tamaño": 200655896
 }
