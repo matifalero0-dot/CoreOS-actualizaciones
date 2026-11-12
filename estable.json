@@ -1,24 +1,14 @@
 {
-  "version": "27.8.9",
+  "version": "27.8.10",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.9",
+  "titulo": "CoreOS 27.8.10",
   "fecha": "2026-11-12",
   "notas": [
-    "Matt piensa mejor con modelos locales: decide solo cuándo razonar (cuentas, código, comparaciones, planes) y muestra el razonamiento plegado arriba de la respuesta. Si se queda sin presupuesto de pensamiento, contesta directo en lugar de fallar.",
-    "Matt es más rápido: el motor local usa flash attention, contexto en 8 bits (la mitad de RAM) y decodificación especulativa. Con el modelo de 7B de este equipo pasó de 5,3 a 8,6 palabras-token por segundo. Si un equipo no lo soporta, vuelve solo a la configuración anterior.",
-    "Matt Chat abre antes: el asistente y sus herramientas se cargan después de mostrar la ventana.",
-    "Matt Chat trabaja con tus apps (no juegos): abre una app con un archivo o una dirección, te dice qué app abre cada tipo de archivo, trae al frente o cierra ventanas, controla la música de cualquier reproductor y deja listo un correo, WhatsApp o Telegram para que lo revises y lo envíes.",
-    "Ajustes → Sistema → Recuperación: revisa datos de Matt, ajustes y archivos de CoreOS; repone la última copia buena o rescata lo legible (lo dañado se guarda aparte), termina instalaciones a medias y reinstala los componentes firmados sin tocar tus archivos.",
-    "Impresoras con Propiedades como en Windows: preferencias de impresión (papel, orientación, color, doble faz, calidad, bandeja, copias y opciones del controlador), nombre, ubicación, compartir en red, página de prueba y cola de impresión con pausar, reanudar y cancelar.",
-    "Microsoft Office con el motor de Wine: al abrir su instalador se prepara una botella propia con msxml6, riched20, gdiplus y Visual C++, los arreglos de pantalla negra y accesos para Word, Excel y PowerPoint. Si Word no abre, prueba otras configuraciones hasta que abra. Microsoft 365 (Click-to-Run) sigue siendo limitado en Wine: se ofrece Office web o Core Office.",
-    "Modo Juego y Stream con animación de entrada premium (emblema, anillos, chispas y estado); los demás modos con una transición suave. Se dibuja una sola vez al cambiar de modo y se cierra; no queda nada corriendo.",
-    "Isla: Matt 8 bits queda dentro del contorno de la isla compacta o abierta al recibir archivos y ya no aparece el recuadro naranja. Estela de movimiento más notoria en todas las actividades con el mismo costo.",
-    "Archivos: la selección en la vista de lista es una franja continua (sin cortes ni rombos) y el doble clic abre carpetas y archivos.",
-    "Ajustes más ágil: Widgets abre al instante (miniaturas en segundo plano), Acerca de, Privacidad y Juegos ya no esperan a comandos externos en cada visita.",
-    "Gráficos: video por hardware y firmware completos para NVIDIA, AMD e Intel al instalar drivers desde Juegos.",
-    "Bloqueo más legible sobre fondos claros (pista, firma, nombre y clima)."
+    "Matt responde con el mismo estilo hables con voseo o con tuteo: empieza por la respuesta, desarrolla cuando aporta y no alarga lo simple. Antes, con tuteo seguía una regla vieja que lo hacía más escueto.",
+    "Los modelos locales reciben la indicación de usar una lista numerada para los pasos.",
+    "Isla: la actividad de Claude y de ChatGPT muestra el ícono real de cada app (sumado al final de la 27.8.9)."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.9/corelab-core_27.8.9_all.deb",
-  "sha256": "06efe96781f105e4157c967df2dbd2ef901f192b5eb647152d8b818fbb248f94",
-  "tamaño": 218567536
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.10/corelab-core_27.8.10_all.deb",
+  "sha256": "7d5f4378592a03f8f7795c59f387c567faa0f212c1224326253b05ea4476e5bb",
+  "tamaño": 218548664
 }
