@@ -1,13 +1,17 @@
 {
-  "version": "27.8.11",
+  "version": "27.8.12",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.11",
+  "titulo": "CoreOS 27.8.12",
   "fecha": "2026-11-12",
   "notas": [
-    "Memoria más ordenada: los componentes del escritorio (isla, dock, barra, widgets, avisos, gestos, Ajustes, Matt y otros) limitan sus zonas de memoria desde que arrancan, antes de que sus hilos reserven de más. No cambia ninguna animación, efecto ni función.",
-    "La pantalla de acceso y bloqueo devuelve al sistema la memoria que ya no usa cuando está en reposo, como el resto de los componentes."
+    "Matt local empieza a responder antes: instrucciones más compactas y reutilización del contexto realmente enviado entre preguntas, sin reprocesar partes de la conversación innecesariamente.",
+    "Razonamiento ajustado al modelo: se evita forzar bloques de pensamiento artificiales en modelos instruct. Los modelos con razonamiento nativo usan un presupuesto por pedido que reserva al menos dos tercios de la salida para contestar; se corrigió el parámetro que el motor ignoraba.",
+    "Matt entrega el pensamiento en tandas a la interfaz para mantenerla ágil. La caché temporal de contexto se limita, no se guarda en el historial ni se envía al cambiar a una cuenta remota.",
+    "Scroll corregido: la rueda y el desplazamiento continuo sobre selectores cerrados, campos numéricos y deslizadores desplazan la página sin cambiar opciones accidentalmente. Se conserva la edición mediante clic, arrastre y teclado, y la rueda de controles sin página.",
+    "Ajustes conserva la posición de la página al quitar un modelo y también al cancelar el diálogo, evitando el salto al inicio al volver el foco.",
+    "Después de actualizar, reiniciá la sesión para cargar los componentes nuevos."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.11/corelab-core_27.8.11_all.deb",
-  "sha256": "429a25c534b133a7f983e31a7e5fc64f6230c5daac681f698d912d4154799104",
-  "tamaño": 218581940
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.12/corelab-core_27.8.12_all.deb",
+  "sha256": "d15968cd8afd772d8c6e7e0b5300a5ecedbc8416662ae4d810752dedeed6ed70",
+  "tamaño": 218554520
 }
