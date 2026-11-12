@@ -1,18 +1,28 @@
 {
-  "version": "27.8.1",
+  "version": "27.8.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.1",
-  "fecha": "2026-11-11",
+  "titulo": "CoreOS 27.8.2",
+  "fecha": "2026-11-12",
   "notas": [
-    "Owlcore: ahora podés quitar juegos de la biblioteca (botón en el detalle o clic derecho). No se desinstalan ni se borran partidas; los de Steam, Epic y GOG quedan en «Quitados» y se pueden volver a mostrar.",
-    "Owlcore: los filtros de plataforma muestran cuántos juegos hay en cada una, y «Jugar ahora» sólo aparece con un juego elegido.",
-    "Centro de control: el modo edición es más preciso. La tarjeta va antes o después según el lado del puntero, responde más rápido y no salta entre dos huecos; el reacomodo se desliza con más suavidad.",
-    "Centro de notificaciones: filtros por app con la cantidad de avisos de cada una.",
-    "Coreview renovado: insignia y navegación con indicador de la sección activa, contadores en directo / guardadas / grabando y una bienvenida con sus funciones.",
-    "Pantalla de bloqueo: la letra de la canción va en una tarjeta propia, más fácil de leer.",
-    "Incluye todo lo de CoreOS 27.8."
+    "Isla · resumen de avisos: lo que llegó con No molestar, en Modo Juego, Stream o Enfoque, o con la pantalla bloqueada, aparece al volver en un solo aviso, agrupado por app y por persona.",
+    "Isla · «Memoria casi llena» dice qué programa usa más y ofrece «Liberar memoria» sin cerrar nada. La temperatura alta también dice qué la causa.",
+    "Isla · avisa si un programa usa mucho procesador por más de un minuto, si a tus auriculares, mouse o teclado les queda poca batería, cuando una cuenta de IA se queda sin tokens y, a la mañana, un «Buenos días» con el clima y tu primer evento.",
+    "Isla · «Poco espacio» indica cuánto ocupan la papelera y la caché; esa revisión ya no frena la isla.",
+    "Isla · con NVIDIA, las apps que minimizás hacia la isla se ven viajar hasta la cápsula en vez de desaparecer.",
+    "Matt sabe qué app tenés al frente y qué texto seleccionaste («traducí esto», «resumime esto»).",
+    "Matt programa tareas: recordatorios, pedidos que se repiten («todos los lunes a las 9 resumime mis avisos») y avisos de cotización. La isla avisa aunque Matt Chat esté cerrado.",
+    "Si la cuenta de IA se queda sin tokens o falla, Matt sigue con otra cuenta conectada y te lo dice.",
+    "Super + Mayús + Q abre Matt Chat con tu pantalla ya adjunta.",
+    "Historial de acciones con «Deshacer»: archivos que Matt creó o cambió, y modos del sistema.",
+    "Herramientas nuevas de Matt: liberar memoria, ver tokens, copiar al portapapeles, abrir en Archivos, programas pesados, discos (y abrirlos), batería de dispositivos, buscar archivos por nombre y avisos agrupados.",
+    "Matt usa los sonidos que elegiste en Ajustes también en Matt Chat (antes sonaban los de fábrica).",
+    "Pantalla de bloqueo: el campo de contraseña, los avisos y la tarjeta toman el tono del fondo, con texto siempre legible.",
+    "Discos NTFS que Windows dejó con errores ya no dan «wrong fs type»: se abren para leer y la isla ofrece «Reparar».",
+    "Selector de archivos de las apps (Steam, navegadores…): unido a su ventana, sin bordes que no combinan ni marcas entre columnas.",
+    "Menos RAM: los marcos de ventanas y la protección en tiempo real de Core Defender corren dentro de un proceso que ya existía.",
+    "Más fluidez: escrituras a disco en tandas chicas (sin congelarse al copiar a un pendrive) y prioridad baja para la precompilación de shaders de Steam, las miniaturas y los análisis del antivirus."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.1/corelab-core_27.8.1_all.deb",
-  "sha256": "168e355077e35b4ed9b29ee3aa32a70cb2915f77684babe9ae1f1377c49366fc",
-  "tamaño": 200686924
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.2/corelab-core_27.8.2_all.deb",
+  "sha256": "9637cc928670780d61756a0a7f9dc417876b8e9a93b884fc9686413edf0acb72",
+  "tamaño": 200741112
 }
