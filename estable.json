@@ -1,17 +1,19 @@
 {
-  "version": "27.8.12",
+  "version": "27.8.14",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.12",
+  "titulo": "CoreOS 27.8.14",
   "fecha": "2026-11-12",
   "notas": [
-    "Matt local empieza a responder antes: instrucciones más compactas y reutilización del contexto realmente enviado entre preguntas, sin reprocesar partes de la conversación innecesariamente.",
-    "Razonamiento ajustado al modelo: se evita forzar bloques de pensamiento artificiales en modelos instruct. Los modelos con razonamiento nativo usan un presupuesto por pedido que reserva al menos dos tercios de la salida para contestar; se corrigió el parámetro que el motor ignoraba.",
-    "Matt entrega el pensamiento en tandas a la interfaz para mantenerla ágil. La caché temporal de contexto se limita, no se guarda en el historial ni se envía al cambiar a una cuenta remota.",
-    "Scroll corregido: la rueda y el desplazamiento continuo sobre selectores cerrados, campos numéricos y deslizadores desplazan la página sin cambiar opciones accidentalmente. Se conserva la edición mediante clic, arrastre y teclado, y la rueda de controles sin página.",
-    "Ajustes conserva la posición de la página al quitar un modelo y también al cancelar el diálogo, evitando el salto al inicio al volver el foco.",
-    "Después de actualizar, reiniciá la sesión para cargar los componentes nuevos."
+    "Matt local: selección por tarea y memoria, contexto de proyecto y herramientas que se descubren y encadenan según el trabajo.",
+    "Nuevas herramientas para diagnosticar la IA, inspeccionar proyectos y comprobar sintaxis sin ejecutar código.",
+    "Respuestas de nube: reutiliza los catálogos conocidos y evita consultar modelos antes de usar una elección explícita.",
+    "Matt Chat renovado: marcos de código con líneas, copiar y guardar; terminal en vivo por tandas; tarjetas de tareas e imágenes.",
+    "Los pedidos de imágenes muestran el lienzo de carga en la misma respuesta y usan generadores locales o cuentas de nube compatibles. Sólo local conserva su límite.",
+    "Menús anclados, diálogos y transiciones entre secciones, con respeto al movimiento reducido.",
+    "Isla: sólo desenfoque de movimiento direccional, con estela integrada y costo acotado; sin desenfoque general.",
+    "Mejoras en estimación de memoria y recuperación de descargas de modelos."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.12/corelab-core_27.8.12_all.deb",
-  "sha256": "d15968cd8afd772d8c6e7e0b5300a5ecedbc8416662ae4d810752dedeed6ed70",
-  "tamaño": 218554520
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.14/corelab-core_27.8.14_all.deb",
+  "sha256": "74446746534d02add5af4f5d5f9c9a580018cde7f0f93fd7ebe2b5377c5e799f",
+  "tamaño": 218573976
 }
