@@ -1,14 +1,13 @@
 {
-  "version": "27.8.10",
+  "version": "27.8.11",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.8.10",
+  "titulo": "CoreOS 27.8.11",
   "fecha": "2026-11-12",
   "notas": [
-    "Matt responde con el mismo estilo hables con voseo o con tuteo: empieza por la respuesta, desarrolla cuando aporta y no alarga lo simple. Antes, con tuteo seguía una regla vieja que lo hacía más escueto.",
-    "Los modelos locales reciben la indicación de usar una lista numerada para los pasos.",
-    "Isla: la actividad de Claude y de ChatGPT muestra el ícono real de cada app (sumado al final de la 27.8.9)."
+    "Memoria más ordenada: los componentes del escritorio (isla, dock, barra, widgets, avisos, gestos, Ajustes, Matt y otros) limitan sus zonas de memoria desde que arrancan, antes de que sus hilos reserven de más. No cambia ninguna animación, efecto ni función.",
+    "La pantalla de acceso y bloqueo devuelve al sistema la memoria que ya no usa cuando está en reposo, como el resto de los componentes."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.10/corelab-core_27.8.10_all.deb",
-  "sha256": "7d5f4378592a03f8f7795c59f387c567faa0f212c1224326253b05ea4476e5bb",
-  "tamaño": 218548664
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.8.11/corelab-core_27.8.11_all.deb",
+  "sha256": "429a25c534b133a7f983e31a7e5fc64f6230c5daac681f698d912d4154799104",
+  "tamaño": 218581940
 }
