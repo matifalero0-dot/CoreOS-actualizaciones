@@ -1,30 +1,17 @@
 {
-  "version": "27.9.2",
+  "version": "27.9.3",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.2",
+  "titulo": "CoreOS 27.9.3",
   "fecha": "2026-11-13",
   "notas": [
-    "Tienda: Steam, Discord, Google Chrome, Visual Studio Code y Zoom se instalan desde la tienda con el paquete oficial de cada fabricante (descarga con progreso y verificación del paquete). Steam ya no queda sin abrir: el de Flathub se caía al cerrar el aviso de mandos.",
-    "Tienda con más de 40 apps nuevas (Firefox, VLC, emuladores, ProtonUp-Qt, IntelliJ, PyCharm, Android Studio, FreeCAD, LMMS, Anki, Proton VPN…), botón Atrás, cola de descargas con Cancelar, «×» para cancelar cada descarga y menú «⋯» en las apps instaladas. «Obtener» y «Abrir» se ven claros en tema claro y oscuro.",
-    "OwlCore reemplaza a la app «Juegos»: portada con «Seguir jugando», «Jugar a…» el último juego en un toque y el círculo ▶ de cada carátula juega directo (sin activar acciones antes).",
-    "Pantalla de bloqueo: reloj con cifras parejas y más profundidad, controles en una cápsula de vidrio, botones de energía con relieve y entrada escalonada. Reiniciar y Apagar funcionan siempre (piden un segundo toque) y la captura se guarda en Imágenes/Capturas.",
-    "Ajustes: tarjetas con borde de luz, encabezados con marca de color, opciones más compactas e interruptores y botones bien visibles en claro y oscuro.",
-    "Pantalla, como en Windows: color, compatibilidad y señal por monitor (rango RGB completo o limitado, profundidad de color, espacio de color/HDR, modo juego de TV, escalado, sonido por el cable, ajuste de bordes) y «Modo seguro» si una pantalla parpadea o queda negra. Se recuerda por monitor.",
-    "Centro de control: modo edición nuevo, sin tarjetas dentro de tarjetas: cada control conserva su lugar y aparecen la insignia para quitar, «⋯» y el tirador de tamaño; se arrastra el control entero.",
-    "Paneles (centro de control, notificaciones) oscurecen todas las pantallas también con dos o más monitores.",
-    "Centro de notificaciones: tarjetas con el brillo del color de cada app y acciones más limpias.",
-    "Isla: la gota de la segunda actividad ya no se corta al estirarse ni hace un salto al unirse; «Velocidad» vuelve a medir la bajada (daba 0 Mbps); responder un mensaje funciona aunque la app haya retirado el aviso, tu respuesta ya no vuelve como si te la hubieran mandado y hay respuestas rápidas según el mensaje.",
-    "Ventanas: cerrar, minimizar y maximizar a la izquierda también en apps Flatpak y GTK 4; las apps abren centradas aunque recuerden otra posición y la animación de apertura es más notoria y suave.",
-    "Widget de música con las barras del mismo color que las de la isla; todos los widgets con más profundidad.",
-    "Íconos: documentos premium para más de 110 tipos (código por lenguaje, Office, comprimidos, imágenes, audio, video, fuentes, paquetes); ya no hay apps distintas con el mismo ícono; el pack «Pixel 8» crea un ícono 8 bit propio para cada app instalada, también las de terceros.",
-    "Sonidos 8 bit rediseñados (Pixel 8, Consola verde y Arcade neón) con un chip propio: pulsos, triángulo y ruido de consola.",
-    "Dock: segundo plano con ícono chico de 13×13 y tarjetas con relieve. Menú de aplicaciones con desenfoque de movimiento real al desplazar y apertura más presente.",
-    "Menos RAM: los componentes de CoreOS (isla, dock, widgets, centro de control, notificaciones, bloqueo, Matt, Reloj) devuelven al sistema las imágenes y la memoria grande apenas dejan de usarlas, en lugar de retenerla; WhatsApp e Instagram en segundo plano usan menos memoria.",
-    "Rendimiento: navegadores y apps Electron con video y dibujo por GPU, Flatpak con la gráfica correcta, Roblox en modo rendimiento con Vulkan y la gráfica dedicada, GE-Proton y Wine con NTSYNC, FSR y menos memoria por proceso.",
-    "Matt: modelos locales especializados (código, pensamiento a fondo y búsqueda) que se usan solos según el pedido, más memoria de conversación cuando el equipo la tiene, lateral más profesional y Chat y CoreCode separados de verdad (CoreCode agrupa por proyecto y no mezcla tu memoria personal con el código).",
-    "Reiniciá después de actualizar para cargar la isla, el compositor y los componentes nuevos."
+    "Bloqueo y AOD: los avisos del gestor de energía/batería ya no aparecen ni suman notificaciones pendientes; se mantienen los mensajes de otras apps.",
+    "Tienda: sincroniza en segundo plano el estado real de las apps cuando se instalan o desinstalan desde el sistema, y actualiza la biblioteca y los botones de instalación.",
+    "Menú de aplicaciones: crear accesos directos al escritorio desde el menú contextual, también con teclado y desde las apps recomendadas; mejor compatibilidad con las apps que se abren por D-Bus.",
+    "Matt Chat: botones redondos y pastillas consistentes en claro y oscuro, con foco de teclado dentro del botón y sin el marco cuadrado.",
+    "Matt local y de nube: mejor criterio para planificar, comprobar resultados y responder con agilidad. Comparte ejecución de herramientas con consultas reutilizadas, lecturas independientes en paralelo y protección frente a repeticiones y fallos en bucle. Respeta el modelo elegido y reserva los especialistas al modo automático.",
+    "Reiniciá después de actualizar para cargar los componentes nuevos."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.2/corelab-core_27.9.2_all.deb",
-  "sha256": "02ac37d7e913daa1034d618f03809276903975477328516a7fc63f2ce7a8dc04",
-  "tamaño": 226550132
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.3/corelab-core_27.9.3_all.deb",
+  "sha256": "b335e26a8007b7aef7a0ca5ab7666bdb40eec033938d7a9a5ebb8476b27c2bc3",
+  "tamaño": 226550040
 }
