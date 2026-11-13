@@ -1,21 +1,15 @@
 {
-  "version": "27.9.4",
+  "version": "27.9.5",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.4",
+  "titulo": "CoreOS 27.9.5",
   "fecha": "2026-11-13",
   "notas": [
-    "Ventanas: minimizar, maximizar y cerrar a la derecha en todas las apps; lo que estaba a la derecha pasa a la izquierda. Se arreglaron los íconos de «imagen faltante» en apps Flatpak.",
-    "Abrir apps sin trabas: las apps abiertas desde el dock, el menú o la isla ya no compiten con la interfaz; arrancan con prioridad algo menor 15 s y después vuelven a la normal.",
-    "Grabación sin tirones: grabador de CoreOS, OBS y gpu-screen-recorder con prioridad propia de procesador y disco.",
-    "Juegos: «CoreOS Launcher» (antes GE-Proton CoreOS) reconstruido y estable, predeterminado en Steam. Juegos a pantalla completa directo a la pantalla (menos latencia, más FPS, G-SYNC/FreeSync) y con prioridad alta.",
-    "RAM: apps quietas fuera de la vista se pausan a los 8 min y su memoria va a zram; Matt Chat oculto se cierra solo; el motor de IA local limita su caché.",
-    "Matt crea y guarda los archivos de verdad (y los guarda aunque el modelo escriba el código en el chat); búsqueda web más ágil; Matt Chat con diseño premium; Matt de la isla rediseñado con pulsos.",
-    "Animaciones de abrir, maximizar, minimizar y pantalla completa más fluidas; desenfoque de movimiento en todo el menú de apps; Ajustes más profesionales; segundo plano con íconos chicos.",
-    "Tienda más premium: ficha sobria, progreso en una sola barra con el porcentaje al lado y el aviso de instalación como tarjeta flotante que ya no tapa la galería. Notificaciones en cascada al abrir y buscador con selección más clara.",
-    "Video por hardware NVIDIA (NVDEC) en navegadores y reproductores cuando la NVIDIA es la placa principal.",
-    "Reiniciá después de actualizar para cargar los componentes nuevos."
+    "CoreOS Launcher funciona en Steam: se bajaba la GE-Proton para procesadores ARM (GE-Proton 11 publica dos versiones) y Steam decía «Falló la herramienta de compatibilidad». Ahora baja la de tu procesador, la comprueba y repara sola una instalación equivocada al iniciar sesión.",
+    "corexe: al abrir un .exe hay dos opciones, «CoreOS Launcher» (juegos y programas con gráficos) y «Wine» (programas de escritorio). Sin variables de Proton propias: usa el mismo CoreOS Launcher que Steam.",
+    "Menú de aplicaciones sin lag al abrir: ya no redibuja la ventana entera en cada cuadro de la apertura y los recomendados se actualizan después, sólo si cambiaron.",
+    "Reiniciá Steam después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.4/corelab-core_27.9.4_all.deb",
-  "sha256": "64c341bb71245da64379dbe40d3cb4e8689c41bd1ba90f7f93dcbfc9d92b0261",
-  "tamaño": 226569304
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.5/corelab-core_27.9.5_all.deb",
+  "sha256": "0b722a2557ce1ffc6158958efc18c14645c3beeb54e4e32b02487ddad30864bf",
+  "tamaño": 226555356
 }
