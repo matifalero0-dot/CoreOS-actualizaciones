@@ -1,17 +1,17 @@
 {
-  "version": "27.10.6",
+  "version": "27.10.7",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10.6",
+  "titulo": "CoreOS 27.10.7",
   "fecha": "2026-11-14",
   "notas": [
-    "Redibujado más liviano: el reloj de los widgets ya no rearma el widget entero 20 veces por segundo.",
-    "Calendario, centro de control y notificaciones justo encima de la barra; sin recuadros sobre el texto.",
-    "Volumen real (el 1 % apenas se escucha) y Matt Chat sin sonidos, con botón para activarlos.",
-    "NTFS sin errores, Roblox completo, drivers que se instalan aunque algo no combine y Brave predeterminado.",
-    "Navegadores y Steam sin trabar, Buscar estilo Windows 11, isla a los Hz reales jugando y Modo Juego más a fondo.",
+    "La isla vuelve a tener todas sus animaciones (guardar, abrir, avisos y rebotes).",
+    "Brave abre con su propia página principal en vez de una personalizada.",
+    "Brave con bordes redondeados como el resto de las ventanas.",
+    "Incluye toda la serie 27.10: widgets más livianos, paneles en su lugar, volumen real y Matt Chat sin sonidos.",
+    "NTFS sin errores, Roblox completo, drivers que se instalan, navegadores y Steam sin trabar y Modo Juego más a fondo.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.6/corelab-core_27.10.6_all.deb",
-  "sha256": "7693e3828c84502733b69181bf55d25d51ce324284613287bebd6dcd8148c083",
-  "tamaño": 231969596
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.7/corelab-core_27.10.7_all.deb",
+  "sha256": "25f24ab63c40824cd5eb28bb60fe4d4f9547d3e737d138a3ec868cb7248f0afe",
+  "tamaño": 231990968
 }
