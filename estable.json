@@ -1,15 +1,18 @@
 {
-  "version": "27.9.5",
+  "version": "27.9.7",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.5",
-  "fecha": "2026-11-13",
+  "titulo": "CoreOS 27.9.7",
+  "fecha": "2026-11-14",
   "notas": [
-    "CoreOS Launcher funciona en Steam: se bajaba la GE-Proton para procesadores ARM (GE-Proton 11 publica dos versiones) y Steam decía «Falló la herramienta de compatibilidad». Ahora baja la de tu procesador, la comprueba y repara sola una instalación equivocada al iniciar sesión.",
-    "corexe: al abrir un .exe hay dos opciones, «CoreOS Launcher» (juegos y programas con gráficos) y «Wine» (programas de escritorio). Sin variables de Proton propias: usa el mismo CoreOS Launcher que Steam.",
-    "Menú de aplicaciones sin lag al abrir: ya no redibuja la ventana entera en cada cuadro de la apertura y los recomendados se actualizan después, sólo si cambiaron.",
-    "Reiniciá Steam después de actualizar."
+    "CoreOS Launcher: modo seguro automático. Si un juego se cierra con error en sus primeros 20 segundos, la próxima vez arranca con GE-Proton pura; manifiesto y entrada propios sin tocar la GE original; verificación y reparación en cada inicio de sesión.",
+    "Fluidez: la prioridad del dock y el menú ya no pasa a Steam ni a los navegadores; el servicio de fluidez se activa aunque estuviera apagado y ya no lanza un proceso auxiliar por cada programa.",
+    "Matt local: deja un núcleo libre para el escritorio, sin espera activa, con lotes y caché de prompts acotados.",
+    "Segundo plano: cruces siempre visibles, cierre corregido y RAM real por app. Navegadores: los ajustes gráficos llegan al lanzamiento real de Brave y Chrome.",
+    "Isla: relevo suave también dentro de una actividad, más rebote al crecer, recogerse y cambiar de actividad, sin pulso al llegar notificaciones; Matt en la isla con fundido entre estados.",
+    "Matt Chat: desplazamiento suave mientras llega la respuesta. RAM: los residentes liberan cachés cuando falta memoria (antes ese aviso nunca llegaba).",
+    "Reiniciá después de actualizar y reiniciá Steam para que tome el Launcher nuevo."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.5/corelab-core_27.9.5_all.deb",
-  "sha256": "0b722a2557ce1ffc6158958efc18c14645c3beeb54e4e32b02487ddad30864bf",
-  "tamaño": 226555356
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.7/corelab-core_27.9.7_all.deb",
+  "sha256": "b26fa346fa50eb199a74ecfe32776ce76fb55b7f779acee9294a065d7cefa1de",
+  "tamaño": 226526568
 }
