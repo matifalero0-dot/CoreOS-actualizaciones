@@ -1,17 +1,16 @@
 {
-  "version": "27.10.4",
+  "version": "27.10.5",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10.4",
+  "titulo": "CoreOS 27.10.5",
   "fecha": "2026-11-14",
   "notas": [
-    "Volumen real: el 1 % apenas se escucha, el 20 % ya se oye bien y cada paso sube lo mismo.",
-    "Matt Chat sin la musiquita de pensar ni otros sonidos; un botón nuevo los activa si los querés.",
-    "Incluye la 27.10.3: discos NTFS sin errores, Roblox completo y listo para iniciar sesión.",
-    "Drivers que se instalan aunque algo no combine; Brave predeterminado; navegadores y Steam sin trabar.",
-    "Buscar estilo Windows 11, Ajustes premium, isla a los Hz reales jugando y Modo Juego más a fondo.",
+    "Calendario, centro de control y notificaciones se abren justo encima de la barra (antes, muy arriba).",
+    "Sin recuadros oscuros sobre el texto del calendario y las notificaciones.",
+    "Incluye la 27.10.4: volumen real y Matt Chat sin sonidos (con botón para activarlos).",
+    "Y lo anterior: NTFS sin errores, Roblox completo, drivers que se instalan, Brave predeterminado y Modo Juego más a fondo.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.4/corelab-core_27.10.4_all.deb",
-  "sha256": "b588ab2d927a0bb66fe7a4ab727399835f9e601e81c1c0ad2985e02ad422fdd6",
-  "tamaño": 232047064
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.5/corelab-core_27.10.5_all.deb",
+  "sha256": "92a265cf9fc3b6a587dfa67a5b70e9630ad6f7be948705aa54c13469020c3030",
+  "tamaño": 231988420
 }
