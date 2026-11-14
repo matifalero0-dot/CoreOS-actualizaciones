@@ -1,17 +1,17 @@
 {
-  "version": "27.9.11",
+  "version": "27.9.13",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.11",
+  "titulo": "CoreOS 27.9.13",
   "fecha": "2026-11-14",
   "notas": [
-    "Barra de tareas estilo Windows 11 en lugar del dock, personalizable desde Ajustes.",
-    "Ajustes rediseñado como la Configuración de Windows 11: mismo orden, tarjetas compactas.",
-    "Fluidez: prioridades que ahora sí alcanzan a cada app; las apps que consumen demasiado ceden ante la interfaz; Steam más fluido.",
-    "Drivers oficiales más recientes: NVIDIA según nvidia.com para tu placa (620 en la rama actual), Mesa 26 y firmware nuevo para AMD e Intel.",
-    "Navegadores abren normal (se quitó el video por placa forzado). Launcher y Wine en núcleos de rendimiento en Intel híbridos. Isla con menos rebote y estela más notable.",
+    "Drivers: arreglada la descarga (Mesa y NVIDIA de 32 y 64 bits juntos) con plan B automático.",
+    "Las apps que no aparecían al reabrirlas ahora se traen al frente. Botones de ventana siempre a la derecha.",
+    "Barra de tareas más grande con el Inicio encima; fundido al cambiar la barra; Ajustes de un solo color.",
+    "NVIDIA en máximo rendimiento durante videos y juegos; NVENC más nítido; más FPS en juegos.",
+    "Isla con rebote apenas más visible y más liviana; transiciones de bloqueo y arranque más suaves.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.11/corelab-core_27.9.11_all.deb",
-  "sha256": "3b75393f3bdfbe757930f65d58933a2dd343d9841390177fdbcb2091e694351c",
-  "tamaño": 226645448
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.13/corelab-core_27.9.13_all.deb",
+  "sha256": "7bdf7450c0617e5c546bb8084ce56be03ab45b2965e3ca1ac644f0ccdb93b7be",
+  "tamaño": 226627400
 }
