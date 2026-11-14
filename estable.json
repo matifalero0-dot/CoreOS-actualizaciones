@@ -1,18 +1,19 @@
 {
-  "version": "27.9.7",
+  "version": "27.9.8",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.7",
+  "titulo": "CoreOS 27.9.8",
   "fecha": "2026-11-14",
   "notas": [
-    "CoreOS Launcher: modo seguro automático. Si un juego se cierra con error en sus primeros 20 segundos, la próxima vez arranca con GE-Proton pura; manifiesto y entrada propios sin tocar la GE original; verificación y reparación en cada inicio de sesión.",
-    "Fluidez: la prioridad del dock y el menú ya no pasa a Steam ni a los navegadores; el servicio de fluidez se activa aunque estuviera apagado y ya no lanza un proceso auxiliar por cada programa.",
-    "Matt local: deja un núcleo libre para el escritorio, sin espera activa, con lotes y caché de prompts acotados.",
-    "Segundo plano: cruces siempre visibles, cierre corregido y RAM real por app. Navegadores: los ajustes gráficos llegan al lanzamiento real de Brave y Chrome.",
-    "Isla: relevo suave también dentro de una actividad, más rebote al crecer, recogerse y cambiar de actividad, sin pulso al llegar notificaciones; Matt en la isla con fundido entre estados.",
-    "Matt Chat: desplazamiento suave mientras llega la respuesta. RAM: los residentes liberan cachés cuando falta memoria (antes ese aviso nunca llegaba).",
-    "Reiniciá después de actualizar y reiniciá Steam para que tome el Launcher nuevo."
+    "Video con NVIDIA: Brave y Chrome no usan la placa en Linux; ahora no anuncian AV1 y YouTube manda VP9, más liviano (NAVEGADOR_AV1=1 vuelve atrás). Firefox listo para decodificar por hardware. Ahorro de memoria en pestañas inactivas como recomendación.",
+    "Isla: barras a 30 cuadros con video del navegador estando compacta; las ventanas salen de la isla con su animación al tocar la actividad; prueba de velocidad en vivo con Speedtest.",
+    "Ajustes se recupera solo si falla al abrir. Matt no avisa consumo mientras mirás un video.",
+    "Menú de apps con tres tipos (Centrado, Lateral y Amplio); edición precisa del centro de control; desinstalar desde las tarjetas de la Tienda.",
+    "Panel de actualización renovado: portada nueva animada y porcentaje real de descarga e instalación. Drivers con progreso real y periféricos (mandos, tabletas, teléfonos, receptores, gamer, escáneres).",
+    "Apps que no volvían a abrir arregladas; menú de apps al instante; apps abren más rápido.",
+    "Reproductor del centro de control rediseñado y más liviano; Matt Chat con mejores respuestas y más fluido; Tienda con descargas que se retoman y panel nuevo; widgets que se acomodan precisos.",
+    "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.7/corelab-core_27.9.7_all.deb",
-  "sha256": "b26fa346fa50eb199a74ecfe32776ce76fb55b7f779acee9294a065d7cefa1de",
-  "tamaño": 226526568
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.8/corelab-core_27.9.8_all.deb",
+  "sha256": "945e1944708a5f31a1b0ca2cbc77e7a3e4a9575e1cef16006da484d3f9d36782",
+  "tamaño": 226596476
 }
