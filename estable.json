@@ -1,17 +1,18 @@
 {
-  "version": "27.9.15",
+  "version": "27.10",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.15",
+  "titulo": "CoreOS 27.10",
   "fecha": "2026-11-14",
   "notas": [
-    "Arreglado: apps que a veces no abrían desde la barra o el menú.",
-    "Arreglado: el centro de control que no abría (se recupera solo si algo falla).",
-    "Arreglado: Brave y otros navegadores que no abrían al reinstalarlos.",
-    "Navegador: la conexión con la isla (tiempo real y adelantar) se instala por política oficial de Firefox.",
-    "Drivers: si falla un repositorio, prueba solo con los de Debian en vez de dar error.",
+    "Modo Juego que se activa antes de iniciar cada juego del Launcher.",
+    "Video por la placa también en el Reproductor y las apps con GStreamer.",
+    "Navegador: página de inicio propia, aspecto renovado y descargas en la isla.",
+    "Isla: íconos en todas las actividades y animaciones más limpias. Matt con pensamiento más avanzado.",
+    "Sensor de almacenamiento semanal, como en Windows.",
+    "Inicio directo al bloqueo con el escritorio cargándose detrás. Brave y Chrome con video por la placa (con red de seguridad). Tonos nuevos. Drivers oficiales para tu placa que se instalan solos con la actualización.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.15/corelab-core_27.9.15_all.deb",
-  "sha256": "8309691de03947016f2b45f3eac6fb7821b42f659cafe35e78f8ba06e2754aca",
-  "tamaño": 226609892
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10/corelab-core_27.10_all.deb",
+  "sha256": "1999c80d1b1249c66dd6ca9e85858bb40507b1c9a9b7d92370e43af835b1b4d8",
+  "tamaño": 231985544
 }
