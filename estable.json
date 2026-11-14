@@ -1,18 +1,19 @@
 {
-  "version": "27.10",
+  "version": "27.10.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10",
+  "titulo": "CoreOS 27.10.1",
   "fecha": "2026-11-14",
   "notas": [
-    "Modo Juego que se activa antes de iniciar cada juego del Launcher.",
-    "Video por la placa también en el Reproductor y las apps con GStreamer.",
-    "Navegador: página de inicio propia, aspecto renovado y descargas en la isla.",
-    "Isla: íconos en todas las actividades y animaciones más limpias. Matt con pensamiento más avanzado.",
-    "Sensor de almacenamiento semanal, como en Windows.",
-    "Inicio directo al bloqueo con el escritorio cargándose detrás. Brave y Chrome con video por la placa (con red de seguridad). Tonos nuevos. Drivers oficiales para tu placa que se instalan solos con la actualización.",
+    "Drivers: si algo no combina se instala todo lo demás y se muestra el error real (adiós «remove is disabled»).",
+    "Brave vuelve como navegador predeterminado; se retiró el Navegador de CoreOS.",
+    "Navegadores y Steam ya no traban el sistema con NVIDIA; arrastrar ventanas grandes, más fluido.",
+    "Buscar en la barra de tareas con estilos como Windows 11: cuadro, ícono y etiqueta, sólo ícono u oculto.",
+    "Ajustes con tarjetas premium. Centro de control: tu distribución ya no se pierde y sin recuadros oscuros.",
+    "Isla a los Hz de la pantalla también jugando. CoreOS Launcher con más cuadros (NTSYNC automático).",
+    "Modo Juego: sin animaciones del sistema (la isla sí), el juego con prioridad y menos tareas de fondo.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10/corelab-core_27.10_all.deb",
-  "sha256": "1999c80d1b1249c66dd6ca9e85858bb40507b1c9a9b7d92370e43af835b1b4d8",
-  "tamaño": 231985544
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.1/corelab-core_27.10.1_all.deb",
+  "sha256": "3b582d08d296094d713b3518abbdb41c61fc15f2adf2c497d7cfc1532620748e",
+  "tamaño": 231944976
 }
