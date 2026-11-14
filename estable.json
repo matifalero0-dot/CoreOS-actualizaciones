@@ -1,16 +1,17 @@
 {
-  "version": "27.10.2",
+  "version": "27.10.3",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10.2",
+  "titulo": "CoreOS 27.10.3",
   "fecha": "2026-11-14",
   "notas": [
-    "Roblox se instala completo (Sober, runtime y drivers gráficos) y se abre listo para iniciar sesión.",
-    "Incluye la 27.10.1: drivers que se instalan aunque algo no combine, Brave predeterminado y navegadores y Steam sin trabar el sistema.",
+    "Discos NTFS de Windows sin errores de lectura y escritura (ntfs-3g primero).",
+    "Roblox se instala completo y se abre listo para iniciar sesión.",
+    "Drivers que se instalan aunque algo no combine; Brave predeterminado; navegadores y Steam sin trabar el sistema.",
     "Buscar en la barra estilo Windows 11, Ajustes premium y centro de control que guarda tu distribución.",
     "Isla a los Hz reales jugando, CoreOS Launcher con más cuadros y Modo Juego más a fondo.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.2/corelab-core_27.10.2_all.deb",
-  "sha256": "bc88906321004a56a938164725dfb080c63cec71874a8c740a094d4bf6640715",
-  "tamaño": 231981780
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.3/corelab-core_27.10.3_all.deb",
+  "sha256": "780fc7044a8ced00da14d8afd782adceea1dfa9fed89eb4dceab36e000677cbd",
+  "tamaño": 232006312
 }
