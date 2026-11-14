@@ -1,16 +1,17 @@
 {
-  "version": "27.10.8",
+  "version": "27.10.9",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10.8",
+  "titulo": "CoreOS 27.10.9",
   "fecha": "2026-11-14",
   "notas": [
-    "Abrir un navegador desde la isla o la barra ya no enlentece el sistema: los navegadores ya no se congelan.",
-    "El viaje del navegador desde y hacia la isla, sin desenfoque pesado.",
-    "Incluye la 27.10.7: isla con todas sus animaciones y Brave con su página principal y bordes redondeados.",
-    "Y toda la serie 27.10: volumen real, Matt Chat sin sonidos, NTFS, Roblox, drivers y Modo Juego más a fondo.",
+    "Drivers NVIDIA: corregidos los conflictos de paquetes reemplazados y de bibliotecas de 32 y 64 bits al actualizar de 550 a 620.",
+    "La instalación de drivers comprueba las versiones configuradas, el módulo NVIDIA del kernel y el arranque antes de anunciar éxito. Los paquetes pendientes se muestran por separado.",
+    "Menor costo de pintura al abrir la isla. Se conserva la estela de desenfoque y se recupera también en navegadores con procesamiento adaptado al tamaño de ventana.",
+    "Las apps y los navegadores abren con prioridad normal, sin el freno fijo inicial ni bloquear el hilo de dibujo de la isla.",
+    "El sonido de inicio suena al entrar al escritorio, después del acceso, una vez por sesión y respetando las preferencias.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.8/corelab-core_27.10.8_all.deb",
-  "sha256": "e5220e287d7170009e784a0c3b4dd75b77cdfcfa488fee3c98a4f414879d1fe4",
-  "tamaño": 232026268
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.9/corelab-core_27.10.9_all.deb",
+  "sha256": "294f5afd625b5b0aa5192f5b36989e550d2d095c8895798009443b0ef31bad8a",
+  "tamaño": 232017392
 }
