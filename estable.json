@@ -1,13 +1,17 @@
 {
-  "version": "27.9.10",
+  "version": "27.9.11",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.10",
+  "titulo": "CoreOS 27.9.11",
   "fecha": "2026-11-14",
   "notas": [
-    "Arreglado: Brave y Chrome no abrían en equipos con placa dedicada (27.9.9).",
-    "Red de seguridad: si con video por placa el navegador no muestra su ventana en 25 s, se abre en modo normal y esa versión queda así hasta la próxima o hasta «Volver a probar»."
+    "Barra de tareas estilo Windows 11 en lugar del dock, personalizable desde Ajustes.",
+    "Ajustes rediseñado como la Configuración de Windows 11: mismo orden, tarjetas compactas.",
+    "Fluidez: prioridades que ahora sí alcanzan a cada app; las apps que consumen demasiado ceden ante la interfaz; Steam más fluido.",
+    "Drivers oficiales más recientes: NVIDIA según nvidia.com para tu placa (620 en la rama actual), Mesa 26 y firmware nuevo para AMD e Intel.",
+    "Navegadores abren normal (se quitó el video por placa forzado). Launcher y Wine en núcleos de rendimiento en Intel híbridos. Isla con menos rebote y estela más notable.",
+    "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.10/corelab-core_27.9.10_all.deb",
-  "sha256": "65f9e7c32a483fd1c49933eeda511f0fca56cffb8f2d39426a26d64eadc83c32",
-  "tamaño": 226593588
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.11/corelab-core_27.9.11_all.deb",
+  "sha256": "3b75393f3bdfbe757930f65d58933a2dd343d9841390177fdbcb2091e694351c",
+  "tamaño": 226645448
 }
