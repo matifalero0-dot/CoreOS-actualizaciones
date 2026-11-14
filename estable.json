@@ -1,19 +1,16 @@
 {
-  "version": "27.10.1",
+  "version": "27.10.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10.1",
+  "titulo": "CoreOS 27.10.2",
   "fecha": "2026-11-14",
   "notas": [
-    "Drivers: si algo no combina se instala todo lo demás y se muestra el error real (adiós «remove is disabled»).",
-    "Brave vuelve como navegador predeterminado; se retiró el Navegador de CoreOS.",
-    "Navegadores y Steam ya no traban el sistema con NVIDIA; arrastrar ventanas grandes, más fluido.",
-    "Buscar en la barra de tareas con estilos como Windows 11: cuadro, ícono y etiqueta, sólo ícono u oculto.",
-    "Ajustes con tarjetas premium. Centro de control: tu distribución ya no se pierde y sin recuadros oscuros.",
-    "Isla a los Hz de la pantalla también jugando. CoreOS Launcher con más cuadros (NTSYNC automático).",
-    "Modo Juego: sin animaciones del sistema (la isla sí), el juego con prioridad y menos tareas de fondo.",
+    "Roblox se instala completo (Sober, runtime y drivers gráficos) y se abre listo para iniciar sesión.",
+    "Incluye la 27.10.1: drivers que se instalan aunque algo no combine, Brave predeterminado y navegadores y Steam sin trabar el sistema.",
+    "Buscar en la barra estilo Windows 11, Ajustes premium y centro de control que guarda tu distribución.",
+    "Isla a los Hz reales jugando, CoreOS Launcher con más cuadros y Modo Juego más a fondo.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.1/corelab-core_27.10.1_all.deb",
-  "sha256": "3b582d08d296094d713b3518abbdb41c61fc15f2adf2c497d7cfc1532620748e",
-  "tamaño": 231944976
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.2/corelab-core_27.10.2_all.deb",
+  "sha256": "bc88906321004a56a938164725dfb080c63cec71874a8c740a094d4bf6640715",
+  "tamaño": 231981780
 }
