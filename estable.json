@@ -1,17 +1,17 @@
 {
-  "version": "27.9.13",
+  "version": "27.9.14",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.13",
+  "titulo": "CoreOS 27.9.14",
   "fecha": "2026-11-14",
   "notas": [
-    "Drivers: arreglada la descarga (Mesa y NVIDIA de 32 y 64 bits juntos) con plan B automático.",
-    "Las apps que no aparecían al reabrirlas ahora se traen al frente. Botones de ventana siempre a la derecha.",
-    "Barra de tareas más grande con el Inicio encima; fundido al cambiar la barra; Ajustes de un solo color.",
-    "NVIDIA en máximo rendimiento durante videos y juegos; NVENC más nítido; más FPS en juegos.",
-    "Isla con rebote apenas más visible y más liviana; transiciones de bloqueo y arranque más suaves.",
+    "Nuevo «Navegador» de CoreOS (motor de Firefox): sin anuncios ni rastreadores, video por la placa, tiempo real y adelantar en la isla y el bloqueo. Es el predeterminado y reemplaza a Brave.",
+    "Centro de control: datos ya cargados al abrir, sin salto, edición de controles rehecha y botón «Agregar controles» visible. Volumen real y sincronizado con el mouse.",
+    "Isla: dibujada con la GPU, a los Hz reales de la pantalla (menos en juegos), estela bien visible e íconos reales al descargar de la Tienda.",
+    "Juegos: la sincronía vertical la decide cada juego; más fluidez con Steam. Drivers: arreglado «Packages need to be removed».",
+    "Barra de tareas sin apps recientes ni etiquetas cortadas bajo el menú. Bloqueo sin mancha al pasar el mouse.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.13/corelab-core_27.9.13_all.deb",
-  "sha256": "7bdf7450c0617e5c546bb8084ce56be03ab45b2965e3ca1ac644f0ccdb93b7be",
-  "tamaño": 226627400
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.14/corelab-core_27.9.14_all.deb",
+  "sha256": "b1dca8fb2760157156a5ee1c208c82d58f2a61dd141501f299dfbd1fc0cb334f",
+  "tamaño": 226638784
 }
