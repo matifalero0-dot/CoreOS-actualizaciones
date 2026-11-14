@@ -1,17 +1,21 @@
 {
-  "version": "27.10.9",
+  "version": "27.11",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.10.9",
+  "titulo": "CoreOS 27.11",
   "fecha": "2026-11-14",
   "notas": [
-    "Drivers NVIDIA: corregidos los conflictos de paquetes reemplazados y de bibliotecas de 32 y 64 bits al actualizar de 550 a 620.",
-    "La instalación de drivers comprueba las versiones configuradas, el módulo NVIDIA del kernel y el arranque antes de anunciar éxito. Los paquetes pendientes se muestran por separado.",
-    "Menor costo de pintura al abrir la isla. Se conserva la estela de desenfoque y se recupera también en navegadores con procesamiento adaptado al tamaño de ventana.",
-    "Las apps y los navegadores abren con prioridad normal, sin el freno fijo inicial ni bloquear el hilo de dibujo de la isla.",
-    "El sonido de inicio suena al entrar al escritorio, después del acceso, una vez por sesión y respetando las preferencias.",
+    "CoreOS Launcher: GE-Proton respeta el límite de FPS de la biblioteca para Direct3D 11/12, usa cachés por juego y selecciona la GPU dedicada disponible en equipos híbridos. Los perfiles y las partidas se conservan.",
+    "Pruebas reales de Direct3D 11 y Direct3D 12 mediante GE-Proton/UMU en entorno aislado. La prueba D3D12 verifica dispositivo, cola de comandos, copia de recurso, fence y lectura de datos.",
+    "Mejor administración de apps de terceros y navegadores: sólo las ventanas minimizadas ceden CPU bajo presión; las apps visibles conservan su prioridad normal.",
+    "Menos trabajo al cambiar de ventana: se agrupan señales repetidas y se evitan consultas de audio y permisos innecesarias.",
+    "Corregida la detección de juegos: mencionar un archivo .exe en un navegador o editor ya no activa Modo Juego; los juegos Flatpak no se frenan como si fueran actualizaciones.",
+    "La precarga de apps de /usr y /opt funciona con los permisos de la cuenta y se detiene en tramos pequeños cuando el equipo necesita recursos.",
+    "Incluye la 27.10.9: conflictos de drivers NVIDIA 550 a 620 corregidos, versiones instaladas y DKMS verificados, pendientes separados y falsos avisos de éxito reparados.",
+    "Incluye la 27.10.9: apertura de apps sin freno inicial, menor costo de pintura de la isla y estela de desenfoque de movimiento conservada y recuperada en navegadores.",
+    "Incluye la 27.10.9: el sonido de inicio suena al entrar al escritorio, después del acceso y una vez por sesión.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.10.9/corelab-core_27.10.9_all.deb",
-  "sha256": "294f5afd625b5b0aa5192f5b36989e550d2d095c8895798009443b0ef31bad8a",
-  "tamaño": 232017392
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11/corelab-core_27.11_all.deb",
+  "sha256": "f5e7c2ac4eced93620fb248f7e949772b4d492731d00a2a7bcf65d04dd18edb9",
+  "tamaño": 232037748
 }
