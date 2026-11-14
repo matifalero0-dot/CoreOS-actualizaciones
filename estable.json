@@ -1,19 +1,14 @@
 {
-  "version": "27.9.8",
+  "version": "27.9.9",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.9.8",
+  "titulo": "CoreOS 27.9.9",
   "fecha": "2026-11-14",
   "notas": [
-    "Video con NVIDIA: Brave y Chrome no usan la placa en Linux; ahora no anuncian AV1 y YouTube manda VP9, más liviano (NAVEGADOR_AV1=1 vuelve atrás). Firefox listo para decodificar por hardware. Ahorro de memoria en pestañas inactivas como recomendación.",
-    "Isla: barras a 30 cuadros con video del navegador estando compacta; las ventanas salen de la isla con su animación al tocar la actividad; prueba de velocidad en vivo con Speedtest.",
-    "Ajustes se recupera solo si falla al abrir. Matt no avisa consumo mientras mirás un video.",
-    "Menú de apps con tres tipos (Centrado, Lateral y Amplio); edición precisa del centro de control; desinstalar desde las tarjetas de la Tienda.",
-    "Panel de actualización renovado: portada nueva animada y porcentaje real de descarga e instalación. Drivers con progreso real y periféricos (mandos, tabletas, teléfonos, receptores, gamer, escáneres).",
-    "Apps que no volvían a abrir arregladas; menú de apps al instante; apps abren más rápido.",
-    "Reproductor del centro de control rediseñado y más liviano; Matt Chat con mejores respuestas y más fluido; Tienda con descargas que se retoman y panel nuevo; widgets que se acomodan precisos.",
-    "Reiniciá después de actualizar."
+    "Brave y Chrome decodifican el video con la placa dedicada: NVIDIA (NVDEC), AMD Radeon e Intel Arc, con comprobación automática; si una versión del navegador no puede, vuelve sola al modo normal y se reintenta con la próxima.",
+    "Con integrada y dedicada, el video del navegador va por la dedicada. Ajustes › Drivers › Navegadores: interruptor, estado y «Volver a probar».",
+    "Cerrá y abrí Brave o Chrome después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.8/corelab-core_27.9.8_all.deb",
-  "sha256": "945e1944708a5f31a1b0ca2cbc77e7a3e4a9575e1cef16006da484d3f9d36782",
-  "tamaño": 226596476
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.9.9/corelab-core_27.9.9_all.deb",
+  "sha256": "9c30c457bfdce9b36911dc78483cffdd6ece2e2a76898d1b125c852e8ddc6498",
+  "tamaño": 226602604
 }
