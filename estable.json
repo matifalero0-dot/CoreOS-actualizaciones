@@ -1,16 +1,14 @@
 {
-  "version": "27.11.8",
+  "version": "27.11.9",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.8",
+  "titulo": "CoreOS 27.11.9",
   "fecha": "2026-11-15",
   "notas": [
-    "Centro de control: si se cuelga, se reinicia solo al tocarlo.",
-    "Pendrives y discos externos: se abren solos, copiar ya no traba el sistema y un USB con errores se abre para leer.",
-    "Menos carga con varias ventanas abiertas (sin sombras en las apps que no son GTK).",
-    "Isla más fluida al mover ventanas.",
+    "Adaptadores Wi-Fi USB: reconoce más de 150 modelos (AC600, AC1200, AX1800…) y su firmware se instala sólo si el adaptador está conectado.",
+    "Instaladores .exe de drivers: CoreOS busca e instala su propio driver para ese dispositivo.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.8/corelab-core_27.11.8_all.deb",
-  "sha256": "be59df083fe48fe349acb347b54a535a4a3bbb8d02f410d13f7a7f705067f891",
-  "tamaño": 232059256
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.9/corelab-core_27.11.9_all.deb",
+  "sha256": "8500dab67e49264b3d465e909c8fef8282166da9b1d0fd16cadc38e4c4bad61b",
+  "tamaño": 232047596
 }
