@@ -1,14 +1,17 @@
 {
-  "version": "27.11.9",
+  "version": "27.11.10",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.9",
+  "titulo": "CoreOS 27.11.10",
   "fecha": "2026-11-15",
   "notas": [
-    "Adaptadores Wi-Fi USB: reconoce más de 150 modelos (AC600, AC1200, AX1800…) y su firmware se instala sólo si el adaptador está conectado.",
-    "Instaladores .exe de drivers: CoreOS busca e instala su propio driver para ese dispositivo.",
+    "Centro de control: corrige los cierres pendientes que ocultaban una nueva apertura y libera teclado y mouse cuando la ventana se oculta.",
+    "Centro de control: cancela transiciones anteriores al reabrir y recupera el cierre aunque el compositor no entregue cuadros.",
+    "Roblox: perfil de rendimiento con GameMode y controles de teclado/mouse; copia de seguridad de la configuración y migración aplicada una sola vez.",
+    "Roblox: nueva opción «Reiniciar Roblox compatible» en Verificación e inicio de sesión; conserva la aceleración gráfica del juego y los títulos de los diálogos.",
+    "El CAPTCHA de Sober sigue teniendo un fallo reportado por sus usuarios. Inicio rápido desde la web oficial está disponible; no se verificó un desafío con la cuenta del usuario.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.9/corelab-core_27.11.9_all.deb",
-  "sha256": "8500dab67e49264b3d465e909c8fef8282166da9b1d0fd16cadc38e4c4bad61b",
-  "tamaño": 232047596
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.10/corelab-core_27.11.10_all.deb",
+  "sha256": "427634a01021d9138a8a9425a03c6fe20b7ba353adac148f8b4a47bc57ff67d1",
+  "tamaño": 232004232
 }
