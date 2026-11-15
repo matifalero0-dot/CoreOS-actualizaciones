@@ -1,18 +1,17 @@
 {
-  "version": "27.11.6",
+  "version": "27.11.7",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.6",
+  "titulo": "CoreOS 27.11.7",
   "fecha": "2026-11-15",
   "notas": [
-    "Centro de control: vuelve a abrir (se cerraba solo apenas arrancaba).",
-    "Isla con más rebote y movimiento continuo al entrar, salir, pasar y compactar actividades; estela más notable.",
-    "Cambio de escritorio con estela más notable y liviana; apps que rebotan al abrirse; menú con rebote al aparecer.",
-    "Widgets de clima y calendario rediseñados: cielo del momento y franja del color de acento.",
-    "Selector de ventanas (Alt + Tab) rediseñado: cristal con esquinas redondeadas, ventana elegida con anillo luminoso y vistas previas más grandes.",
-    "Letra de la isla con más rebote y estela de movimiento liviana al mostrarla y al pasar de línea.",
+    "Centro de control: vuelve a abrir siempre y abre mucho más rápido.",
+    "Notificaciones y menú de apagado más rápidos (el menú de apagado ya no usa procesador en reposo).",
+    "Roblox abre aunque Sober haya quedado colgado, y sus ventanas se llaman «Roblox».",
+    "Controlá CoreOS con el mando: reconoce PlayStation 4 y 5, Xbox, Switch, GameSir y genéricos.",
+    "Matt ya no avisa por fossilize_replay (Steam preparando sombreadores); WhatsApp e Instagram gastan menos RAM en segundo plano.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.6/corelab-core_27.11.6_all.deb",
-  "sha256": "e4ac9545949332599d42efc215bedaf2402b093a0d7086603a58fc84cf1febf1",
-  "tamaño": 232032768
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.7/corelab-core_27.11.7_all.deb",
+  "sha256": "8769f1566d41513fb5407255e3912b2af8eee013f7859e2886977f0d70af5389",
+  "tamaño": 232054440
 }
