@@ -1,17 +1,16 @@
 {
-  "version": "27.11.7",
+  "version": "27.11.8",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.7",
+  "titulo": "CoreOS 27.11.8",
   "fecha": "2026-11-15",
   "notas": [
-    "Centro de control: vuelve a abrir siempre y abre mucho más rápido.",
-    "Notificaciones y menú de apagado más rápidos (el menú de apagado ya no usa procesador en reposo).",
-    "Roblox abre aunque Sober haya quedado colgado, y sus ventanas se llaman «Roblox».",
-    "Controlá CoreOS con el mando: reconoce PlayStation 4 y 5, Xbox, Switch, GameSir y genéricos.",
-    "Matt ya no avisa por fossilize_replay (Steam preparando sombreadores); WhatsApp e Instagram gastan menos RAM en segundo plano.",
+    "Centro de control: si se cuelga, se reinicia solo al tocarlo.",
+    "Pendrives y discos externos: se abren solos, copiar ya no traba el sistema y un USB con errores se abre para leer.",
+    "Menos carga con varias ventanas abiertas (sin sombras en las apps que no son GTK).",
+    "Isla más fluida al mover ventanas.",
     "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.7/corelab-core_27.11.7_all.deb",
-  "sha256": "8769f1566d41513fb5407255e3912b2af8eee013f7859e2886977f0d70af5389",
-  "tamaño": 232054440
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.8/corelab-core_27.11.8_all.deb",
+  "sha256": "be59df083fe48fe349acb347b54a535a4a3bbb8d02f410d13f7a7f705067f891",
+  "tamaño": 232059256
 }
