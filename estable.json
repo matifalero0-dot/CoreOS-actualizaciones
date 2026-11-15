@@ -1,18 +1,17 @@
 {
-  "version": "27.11.2",
+  "version": "27.11.3",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.2",
+  "titulo": "CoreOS 27.11.3",
   "fecha": "2026-11-14",
   "notas": [
-    "Correcciones de tirones en navegadores y escritorio: dibujo parcial también en perfiles de compatibilidad y menos efectos sobre ventanas grandes.",
-    "Vuelven las animaciones del navegador al maximizar, volver a ventana y entrar o salir de pantalla completa, usando el contenido vivo del vídeo.",
-    "La isla muestra volumen, brillo, notificaciones y actividades en pantalla completa sin quitar el foco al juego o navegador.",
-    "Animaciones de la isla optimizadas: menos superficies intermedias y sin ráfagas de cuadros atrasados en monitores de alta frecuencia.",
-    "Actualizador de drivers: reparación de configuraciones interrumpidas, verificación correcta de paquetes retenidos y detalles reales del paquete que falla.",
-    "El resultado de drivers ya no amontona porcentajes; se puede volver a intentar con Reparar e instalar.",
-    "Conserva las mejoras de CoreOS 27.11.1. Reiniciá después de actualizar."
+    "Restauradas las animaciones del sistema: bloqueo, desbloqueo con subida y desenfoque, cambio de escritorio y efectos de las ventanas.",
+    "La optimización del navegador queda limitada al navegador; conserva la corrección del lag y sus transiciones de ventana y pantalla completa.",
+    "La detección de movimiento reducido ya no confunde las listas con comentarios ni anula animaciones propias del sistema.",
+    "Conserva ritmo, curvas y alcance de los efectos anteriores. En superficies mayores que 1440p, el barrido usa menos lecturas por píxel.",
+    "Incluye las mejoras de la isla, pantalla completa y reparación de drivers de 27.11.2.",
+    "Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.2/corelab-core_27.11.2_all.deb",
-  "sha256": "bd673f73ce445ca25ede1aed4119a9cc1d49021a3e3aaa141ef0b4c7958af10d",
-  "tamaño": 232030268
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.3/corelab-core_27.11.3_all.deb",
+  "sha256": "944bc0d9811d7747e7632f4c607fbb59887f5b6e96bdbc0572a5c62cd59176f9",
+  "tamaño": 232012052
 }
