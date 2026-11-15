@@ -1,17 +1,27 @@
 {
-  "version": "27.11.3",
+  "version": "27.11.4",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.3",
-  "fecha": "2026-11-14",
+  "titulo": "CoreOS 27.11.4",
+  "fecha": "2026-11-15",
   "notas": [
-    "Restauradas las animaciones del sistema: bloqueo, desbloqueo con subida y desenfoque, cambio de escritorio y efectos de las ventanas.",
-    "La optimización del navegador queda limitada al navegador; conserva la corrección del lag y sus transiciones de ventana y pantalla completa.",
-    "La detección de movimiento reducido ya no confunde las listas con comentarios ni anula animaciones propias del sistema.",
-    "Conserva ritmo, curvas y alcance de los efectos anteriores. En superficies mayores que 1440p, el barrido usa menos lecturas por píxel.",
-    "Incluye las mejoras de la isla, pantalla completa y reparación de drivers de 27.11.2.",
-    "Reiniciá después de actualizar."
+    "La barra de tareas permanece oculta al acercar el mouse al borde inferior durante pantalla completa; no intercepta los clics del juego o video.",
+    "Clic derecho en una zona vacía de la barra: Editar barra de tareas abre directamente su sección de Ajustes.",
+    "Centro de control: apertura con tamaño y anclaje resueltos antes del primer cuadro visible, sin el salto inicial.",
+    "La edición del centro de control conserva módulos, orden y tamaños hasta que el usuario los cambie; la migración y la recuperación de errores ya no reemplazan su distribución.",
+    "Centro de control, notificaciones y calendario cierran al tocar afuera, incluso cuando otra app niega la captura del mouse.",
+    "Fondos de contenedores y etiquetas corregidos para evitar bloques oscuros superpuestos en las opciones del sistema.",
+    "Calendario preparado y medido antes de aparecer; etiquetas de la barra contenidas en su superficie para evitar texto cortado.",
+    "Isla: estela direccional un 4 % más larga con las mismas muestras, caché acotada de superficies reutilizables y estela en las transiciones de avisos.",
+    "Se mantienen las animaciones del sistema, bloqueo y desbloqueo con sus estelas; el modo Juego no desactiva los efectos de todas las demás apps.",
+    "Archivos: selección, navegación, superficies y vista previa refinadas; conserva el desenfoque de movimiento al abrir y cerrar.",
+    "Fotos de llamadas: soporte de URI, recorte de márgenes transparentes y conservación del avatar; insignias de apps completas dentro de su área.",
+    "Drivers: fijaciones de Mesa, libdrm, LLVM y bibliotecas relacionadas para ambas arquitecturas; corrige el conflicto entre versiones de 32 y 64 bits sin ocultar errores de instalación.",
+    "Steam: accesos y enlaces steam:// pasan por el mismo lanzador, opciones de Flatpak en su lugar correcto, preparación del cliente y registro de fallos de arranque.",
+    "Roblox: acceso migrado al lanzador de recuperación, URI de juegos conservada, runtime en el alcance correcto y selección gráfica compatible con el componente web.",
+    "Roblox: Verificación e inicio de sesión ofrece actualización de Sober e Inicio rápido oficial; recuperación del renderizador del diálogo cuando el registro confirma un error gráfico. Los desafíos que fallen en el servicio de Roblox/Sober requieren comprobación con la cuenta.",
+    "Se conserva la corrección del lag del navegador. Reiniciá después de actualizar."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.3/corelab-core_27.11.3_all.deb",
-  "sha256": "944bc0d9811d7747e7632f4c607fbb59887f5b6e96bdbc0572a5c62cd59176f9",
-  "tamaño": 232012052
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.4/corelab-core_27.11.4_all.deb",
+  "sha256": "b82968a7ba0a216715045d7530e5c37abd1118b268a4127397dbc75b36b97f25",
+  "tamaño": 232061360
 }
