@@ -1,14 +1,12 @@
 {
-  "version": "27.11.13",
+  "version": "27.11.14.0",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.11.13",
+  "titulo": "CoreOS Aurora 27.11.14.0",
   "fecha": "2026-11-16",
   "notas": [
-    "Mejoras de Rendimiento",
-    "Mejoras de rendimiento CoreOS launcher",
-    "Soluciones de bugs menores"
+    "Mejoras de rendimiento"
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.13/corelab-core_27.11.13_all.deb",
-  "sha256": "59236d568209892f4dd1d78f805e640e811ebef83e56b40654424bc6c1fa4b02",
-  "tamaño": 232171180
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.14.0/corelab-core_27.11.14.0_all.deb",
+  "sha256": "6b27827e622ad5cee1ec8bf9190dba7c8ef47bdbe9ffcbb6cbb0c28fc6e57034",
+  "tamaño": 232087112
 }
