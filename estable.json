@@ -1,12 +1,15 @@
 {
-  "version": "27.11.14.0",
+  "version": "27.17",
   "edicion": "Aurora",
-  "titulo": "CoreOS Aurora 27.11.14.0",
-  "fecha": "2026-11-16",
+  "titulo": "CoreOS 27.17",
+  "fecha": "2026-11-25",
   "notas": [
-    "Mejoras de rendimiento"
+    "La ISO usa el instalador de CoreOS desde la bienvenida hasta el final, también al instalar junto a Windows en espacio sin asignar o al elegir una partición Linux existente.",
+    "Al cambiar la pantalla principal, el dock, la isla, los widgets y los iconos del escritorio se actualizan con la nueva disposición. Al reconectar los monitores de una disposición guardada, CoreOS vuelve a aplicarla.",
+    "La pantalla principal muestra el reloj y el acceso durante el bloqueo. Las demás pantallas quedan negras.",
+    "Los temas claro y oscuro se sincronizan al iniciar sesión. El diálogo del PIN conserva visibles las etiquetas y adapta los campos, los botones y los avisos a la apariencia elegida."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.11.14.0/corelab-core_27.11.14.0_all.deb",
-  "sha256": "6b27827e622ad5cee1ec8bf9190dba7c8ef47bdbe9ffcbb6cbb0c28fc6e57034",
-  "tamaño": 232087112
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.17/corelab-core_27.17_all.deb",
+  "sha256": "70c04ba8d7f91b573b7737313702f187fb82a265c0260fb9c10f414bca89b723",
+  "tamaño": 331219880
 }
