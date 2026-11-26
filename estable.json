@@ -1,15 +1,18 @@
 {
-  "version": "27.19.2",
+  "version": "27.19.4",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.19.2",
+  "titulo": "CoreOS 27.19.4",
   "fecha": "2026-11-26",
   "notas": [
-    "El panel de notificaciones se centra bajo la isla según su ancho real, también con avisos agrupados y burbujas de actividad.",
-    "Un clic en el botón del Centro de control lo abre aunque estén visibles las notificaciones o el calendario.",
-    "Las animaciones activas de la isla siguen la frecuencia del monitor, incluidos el cronómetro y el indicador de grabación.",
-    "El espectro y el progreso del reproductor del Centro de control se actualizan con el reloj de cuadros del monitor."
+    "El calendario se abre justo encima del reloj de la barra que tocaste, también en pantallas secundarias.",
+    "Las aplicaciones recuerdan dónde y con qué tamaño cerraste su última ventana. Si desconectás una pantalla, la ventana vuelve a un área visible.",
+    "Ajustes carga las secciones a medida que las usás y libera las vistas inactivas al cerrar. Se conservan las preferencias y las operaciones en curso.",
+    "Win+L protege la sesión antes de cargar la interfaz. La pantalla de bloqueo tiene una nueva tarjeta de acceso y una fila unificada de controles.",
+    "El progreso musical y el puntero siguen el reloj de cuadros de la pantalla. Las portadas anteriores liberan memoria al terminar el fundido.",
+    "Al minimizar una ventana con una actividad activa, la actividad reaparece en el mismo momento en que la isla recibe la ventana.",
+    "El anillo de carga se muestra una vez al enchufar la laptop y vuelve a aparecer después de desconectarla y conectarla."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19.2/corelab-core_27.19.2_all.deb",
-  "sha256": "7d89ce6ccc56559394c8ea0053eee0741b05c04e0f726fc9992809324fb31d7d",
-  "tamaño": 331257232
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19.4/corelab-core_27.19.4_all.deb",
+  "sha256": "7c3797424c5cdd834713825bb4b5477e7b44fa684e320fe9ba29fcad7ba97a70",
+  "tamaño": 341505616
 }
