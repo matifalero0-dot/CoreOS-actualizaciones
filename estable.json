@@ -1,18 +1,15 @@
 {
-  "version": "27.19.1",
+  "version": "27.19.2",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.19.1",
+  "titulo": "CoreOS 27.19.2",
   "fecha": "2026-11-26",
   "notas": [
-    "Spotify muestra tus escuchas recientes y favoritas al abrirlo. Podés explorar las canciones de tus playlists y álbumes, elegir por dónde empezar o reproducir la colección completa.",
-    "El reproductor del centro de control muestra la carátula, el álbum y la app de origen. Incluye saltos de 15 segundos y un acceso al catálogo de Spotify.",
-    "El bloqueo y el centro de control reducen el trabajo de dibujo y conservan sus efectos y animaciones. Las tarjetas cambian de contenido y tamaño durante la edición.",
-    "Las notificaciones se despliegan desde la isla con una caída y un rebote. Las vistas abiertas de la isla se recogen al hacer clic afuera, incluso desde otra pantalla.",
-    "La isla conserva los datos del video pausado y recoge la actividad multimedia después de cuatro segundos.",
-    "Cada pantalla tiene su barra de tareas con las ventanas locales y los accesos anclados. El centro de control, las notificaciones y las apps en segundo plano están en la barra principal.",
-    "La barra recupera su visibilidad al salir de pantalla completa o cerrar una ventana."
+    "El panel de notificaciones se centra bajo la isla según su ancho real, también con avisos agrupados y burbujas de actividad.",
+    "Un clic en el botón del Centro de control lo abre aunque estén visibles las notificaciones o el calendario.",
+    "Las animaciones activas de la isla siguen la frecuencia del monitor, incluidos el cronómetro y el indicador de grabación.",
+    "El espectro y el progreso del reproductor del Centro de control se actualizan con el reloj de cuadros del monitor."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19.1/corelab-core_27.19.1_all.deb",
-  "sha256": "a4f5d44d448b1d29133746f61f63497608b02d9ae530af835cb8f8c9e32cd523",
-  "tamaño": 331248316
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19.2/corelab-core_27.19.2_all.deb",
+  "sha256": "7d89ce6ccc56559394c8ea0053eee0741b05c04e0f726fc9992809324fb31d7d",
+  "tamaño": 331257232
 }
