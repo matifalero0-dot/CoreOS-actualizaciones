@@ -1,18 +1,18 @@
 {
-  "version": "27.19",
+  "version": "27.19.1",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.19",
+  "titulo": "CoreOS 27.19.1",
   "fecha": "2026-11-26",
   "notas": [
-    "La barra de tareas conserva su visibilidad al cerrar el navegador desde la X.",
-    "Spotify estrena un panel en GTK 4 con una carátula más grande, progreso de reproducción y un indicador animado mientras suena música.",
-    "La isla secundaria se recoge al hacer clic afuera. Las carátulas de ambas islas siguen la reproducción aunque no haya un widget de música.",
-    "Los widgets se pueden arrastrar entre monitores. Ajustes guarda disposiciones por conjunto de pantallas y permite elegir dónde se ubican las ventanas nuevas y los iconos del escritorio.",
-    "La tarjeta de carga conserva la posición y el tamaño de la ventana de la aplicación durante el fundido.",
-    "El gestor de drivers conserva una variante compatible de i965 y distingue los paquetes Intel de 32 y 64 bits al verificar la instalación.",
-    "El selector rápido de pantallas, Calculadora, Diagnóstico y las interfaces de Modo Juego también pasan a GTK 4."
+    "Spotify muestra tus escuchas recientes y favoritas al abrirlo. Podés explorar las canciones de tus playlists y álbumes, elegir por dónde empezar o reproducir la colección completa.",
+    "El reproductor del centro de control muestra la carátula, el álbum y la app de origen. Incluye saltos de 15 segundos y un acceso al catálogo de Spotify.",
+    "El bloqueo y el centro de control reducen el trabajo de dibujo y conservan sus efectos y animaciones. Las tarjetas cambian de contenido y tamaño durante la edición.",
+    "Las notificaciones se despliegan desde la isla con una caída y un rebote. Las vistas abiertas de la isla se recogen al hacer clic afuera, incluso desde otra pantalla.",
+    "La isla conserva los datos del video pausado y recoge la actividad multimedia después de cuatro segundos.",
+    "Cada pantalla tiene su barra de tareas con las ventanas locales y los accesos anclados. El centro de control, las notificaciones y las apps en segundo plano están en la barra principal.",
+    "La barra recupera su visibilidad al salir de pantalla completa o cerrar una ventana."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19/corelab-core_27.19_all.deb",
-  "sha256": "10cc372764f2847c9b478baa9210c5a719311353f2418ab7217f988827562c0a",
-  "tamaño": 331252232
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19.1/corelab-core_27.19.1_all.deb",
+  "sha256": "a4f5d44d448b1d29133746f61f63497608b02d9ae530af835cb8f8c9e32cd523",
+  "tamaño": 331248316
 }
