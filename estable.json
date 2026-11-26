@@ -1,15 +1,16 @@
 {
-  "version": "27.17",
+  "version": "27.18",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.17",
-  "fecha": "2026-11-25",
+  "titulo": "CoreOS 27.18",
+  "fecha": "2026-11-26",
   "notas": [
-    "La ISO usa el instalador de CoreOS desde la bienvenida hasta el final, también al instalar junto a Windows en espacio sin asignar o al elegir una partición Linux existente.",
-    "Al cambiar la pantalla principal, el dock, la isla, los widgets y los iconos del escritorio se actualizan con la nueva disposición. Al reconectar los monitores de una disposición guardada, CoreOS vuelve a aplicarla.",
-    "La pantalla principal muestra el reloj y el acceso durante el bloqueo. Las demás pantallas quedan negras.",
-    "Los temas claro y oscuro se sincronizan al iniciar sesión. El diálogo del PIN conserva visibles las etiquetas y adapta los campos, los botones y los avisos a la apariencia elegida."
+    "Las barras de la isla y los widgets usan la salida real de audio, incluso si el navegador no informa la reproducción al escritorio.",
+    "Navegador se abre desde el menú, el dock y los enlaces con el icono de CoreOS y el marco del sistema.",
+    "Las aplicaciones nuevas se ubican en el monitor principal.",
+    "La barra de tareas permanece visible al cerrar ventanas.",
+    "Los deslizadores de brillo y volumen del Centro de control mantienen el valor al llegar al máximo."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.17/corelab-core_27.17_all.deb",
-  "sha256": "70c04ba8d7f91b573b7737313702f187fb82a265c0260fb9c10f414bca89b723",
-  "tamaño": 331219880
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.18/corelab-core_27.18_all.deb",
+  "sha256": "d7d44cb961579f561187b850ce536b783d0856de672a603807680ee2bbc51d5a",
+  "tamaño": 331226208
 }
