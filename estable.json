@@ -1,18 +1,18 @@
 {
-  "version": "27.19.4",
+  "version": "27.20",
   "edicion": "Aurora",
-  "titulo": "CoreOS 27.19.4",
-  "fecha": "2026-11-26",
+  "titulo": "CoreOS 27.20",
+  "fecha": "2026-11-28",
   "notas": [
-    "El calendario se abre justo encima del reloj de la barra que tocaste, también en pantallas secundarias.",
-    "Las aplicaciones recuerdan dónde y con qué tamaño cerraste su última ventana. Si desconectás una pantalla, la ventana vuelve a un área visible.",
-    "Ajustes carga las secciones a medida que las usás y libera las vistas inactivas al cerrar. Se conservan las preferencias y las operaciones en curso.",
-    "Win+L protege la sesión antes de cargar la interfaz. La pantalla de bloqueo tiene una nueva tarjeta de acceso y una fila unificada de controles.",
-    "El progreso musical y el puntero siguen el reloj de cuadros de la pantalla. Las portadas anteriores liberan memoria al terminar el fundido.",
-    "Al minimizar una ventana con una actividad activa, la actividad reaparece en el mismo momento en que la isla recibe la ventana.",
-    "El anillo de carga se muestra una vez al enchufar la laptop y vuelve a aparecer después de desconectarla y conectarla."
+    "La isla abierta ya no se cierra sola: se recoge con un clic afuera, Esc o al cambiar de ventana. Las transiciones al abrir y cerrar son más fluidas.",
+    "Actividades de Claude y ChatGPT rediseñadas: indicador vivo propio, barra por pasos del plan y el plan como línea de tiempo. Todas las actividades comparten una luz de su color.",
+    "Nuevo centro de control profesional estilo Windows 11: botones rápidos en cuadrícula, barras a todo el ancho y un editor preciso (seleccionar y mover con ‹ ›, arrastrar con guía, quitar con ×).",
+    "La barra de tareas ya no se reinicia al cerrar el navegador. Buscar se escribe en la misma barra, el puntero muestra sólo el nombre de la app y las vistas previas de ventanas son en tiempo real.",
+    "Las apps muestran su animación de apertura al instante, en el lugar y tamaño donde van a abrir. El centro de notificaciones sale de la isla con desenfoque de movimiento.",
+    "Varias pantallas como en Windows 11: las ventanas vuelven a su lugar al reconectar un monitor y se minimizan al desconectarlo. Calendario junto al reloj, widget de calendario y buscador de Spotify renovados.",
+    "Bloqueo más ágil con música y desbloqueo más rápido; WhatsApp e Instagram en segundo plano usan mucha menos memoria y los paneles abren más rápido."
   ],
-  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.19.4/corelab-core_27.19.4_all.deb",
-  "sha256": "7c3797424c5cdd834713825bb4b5477e7b44fa684e320fe9ba29fcad7ba97a70",
-  "tamaño": 341505616
+  "paquete": "https://github.com/matifalero0-dot/CoreOS-actualizaciones/releases/download/v27.20/corelab-core_27.20_all.deb",
+  "sha256": "a0b8fafe2d01ce8f5c6220ab447bfd1ec843978558c5a0e2aea6d924ed3ac177",
+  "tamaño": 331367940
 }
